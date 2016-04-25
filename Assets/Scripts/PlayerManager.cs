@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : Entity {
 
@@ -33,4 +34,11 @@ void Update () {
         }
         GetComponent<Rigidbody>().transform.Translate(toTranslate);
 	}
+
+	void OnTriggerEnter(Collider other) {
+		if (other.gameObject.tag == "Lose") {
+			SceneManager.LoadScene (SceneManager.GetActiveScene().name);
+		}
+	}
+		
 }

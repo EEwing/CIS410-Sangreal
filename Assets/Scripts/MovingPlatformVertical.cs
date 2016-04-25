@@ -31,7 +31,7 @@ public class MovingPlatformVertical : MonoBehaviour {
 			transform.Translate (toTranslate);
 		}
 		//once we hit a certain distance turn around
-		if (transform.position.y <= startv - distance) {
+		if (transform.position.y <= startv) {
 			up = true;
 		}
 
