@@ -8,22 +8,31 @@ public class MovingPlatformHorizontal : MonoBehaviour {
 	private bool right;
 	public float distance;
 	public float speed;
+	public bool moveRightFromStart;
+	public bool moveLeftFromStart;
+	private float minX;
+	private float maxX;
 
 	void Start () {
 		startx = transform.position.x;
+		minX = startx - distance;
+		maxX = startx + distance;
 		right = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		float r, l;
+
+		r = moveRightFromStart ? maxX : startx;
+		l = moveLeftFromStart ? minX : startx;
 
 		if (right == true) {
 			Vector3 toTranslate = new Vector3 (speed * Time.deltaTime, 0f, 0f);
 			transform.Translate (toTranslate);
 		}
 		//once we hit a certain distance turn around
-		if (transform.position.x >= startx + distance) {
+		if (transform.position.x >= r) {
 			right = false;
 		}
 		if (right == false) {
@@ -31,7 +40,7 @@ public class MovingPlatformHorizontal : MonoBehaviour {
 			transform.Translate (toTranslate);
 		}
 		//once we hit a certain distance turn around
-		if (transform.position.x <= startx - distance) {
+		if (transform.position.x <= l) {
 			right = true;
 		}
 
