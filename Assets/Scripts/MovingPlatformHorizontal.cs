@@ -21,16 +21,15 @@ public class MovingPlatformHorizontal : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-<<<<<<< HEAD
+
 	void FixedUpdate () {
 		
-=======
-	void Update () {
+
 		float r, l;
 
 		r = moveRightFromStart ? maxX : startx;
 		l = moveLeftFromStart ? minX : startx;
->>>>>>> origin/master
+
 
 		if (right == true) {
 			Vector3 toTranslate = new Vector3 (speed * Time.deltaTime, 0f, 0f);

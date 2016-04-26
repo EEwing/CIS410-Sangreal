@@ -872,7 +872,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -29.96
+      value: -41.06
       objectReference: {fileID: 0}
     - target: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -920,8 +920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 242dfee68928a604393c02303f249edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 10
+  distance: 20
   speed: 10
+  moveUpFromStart: 1
+  moveDownFromStart: 0
 --- !u!1001 &1234749496
 Prefab:
   m_ObjectHideFlags: 0

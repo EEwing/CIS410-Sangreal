@@ -22,14 +22,12 @@ public class MovingPlatformVertical : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-<<<<<<< HEAD
 
 
-=======
 		float top, bottom;
 		top = moveUpFromStart ? maxY : startv;
 		bottom = moveDownFromStart ? minY : startv;
->>>>>>> origin/master
+
 		if (up == true) {
 			Vector3 toTranslate = new Vector3 (0f, speed * Time.deltaTime, 0f);
 			transform.Translate (toTranslate);
