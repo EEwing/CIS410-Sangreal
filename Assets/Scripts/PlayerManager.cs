@@ -7,6 +7,9 @@ public class PlayerManager : Entity {
     public float jumpForce = 10f;
     public float airModifier = 5f;
     public float restitutionScale = 1.1f;
+	private bool hasDoubleJumped = false;
+	private bool isInAir = false;
+	private bool hasDoubleJumpPowerup = true;
 
 	// Use this for initialization
 	void Start () {
@@ -19,10 +22,21 @@ public class PlayerManager : Entity {
 
 	void Update(){
 		if (IsGrounded ()) {
+			hasDoubleJumped = false;
+			isInAir = false;
 			if (Input.GetKeyDown (KeyCode.Space)) {
 				GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
+				isInAir = true;
+				Debug.Log ("Jumping");
 			}
-
+		} else {
+			if ((isInAir == true && hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
+				if (Input.GetKeyDown (KeyCode.Space)) {
+					GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
+					hasDoubleJumped = true;
+					Debug.Log ("Double jumping");
+				}
+			}
 		}
 	}
 
@@ -42,9 +56,39 @@ void FixedUpdate () {
 	}
 
 	void OnTriggerEnter(Collider other) {
+		Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Lose") {
-			SceneManager.LoadScene (SceneManager.GetActiveScene().name);
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+		} else if (other.gameObject.tag == "JumpEnemy") {
+			Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
+			//r.AddForce (new Vector3(0f, 500f, 0f));
+			Destroy (other.gameObject);
 		}
 	}
+
+	void OnCollisionEnter(Collision other) {
+		Debug.Log("touched with "+other.gameObject.name);
+		if (other.gameObject.tag == "JumpEnemy") {
+			Debug.Log ("adding force");
+			//Vector3 destination = Vector3.right * 5f;
+			//other.gameObject.transform.position = Vector3.Lerp(other.gameObject.transform.position, destination, 1f * Time.deltaTime);
+			//StartCoroutine (smooth_move (Vector3.right, .25f, other.gameObject));
+			//other.gameObject.transform.position.Set(
+			other.rigidbody.AddForce (new Vector3(0f, 500f, 0f));
+		}
+	}
+				IEnumerator smooth_move(Vector3 direction,float speed, GameObject gameObj){
+					float startime = Time.time;
+					Vector3 start_pos = gameObj.transform.position; //Starting position.
+					Vector3 end_pos = gameObj.transform.position + direction; //Ending position.
+
+					while (start_pos != end_pos && ((Time.time - startime)*speed) < 1f) { 
+						float move = Mathf.Lerp (0,1, (Time.time - startime)*speed);
+
+						gameObj.transform.position += direction*move;
+
+						yield return null;
+					}
+				}
 		
 }
