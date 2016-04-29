@@ -9,7 +9,7 @@ public class PlayerManager : Entity {
     public float restitutionScale = 1.1f;
 	private bool hasDoubleJumped = false;
 	private bool isInAir = false;
-	private bool hasDoubleJumpPowerup = true;
+	private bool hasDoubleJumpPowerup = false;
 
 	// Use this for initialization
 	void Start () {
@@ -63,6 +63,10 @@ void FixedUpdate () {
 			Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
 			//r.AddForce (new Vector3(0f, 500f, 0f));
 			Destroy (other.gameObject);
+		} else if (other.gameObject.tag == "DoubleJump") {
+			hasDoubleJumpPowerup = true;
+			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
+			Destroy (other.gameObject);
 		}
 	}
 
@@ -75,6 +79,8 @@ void FixedUpdate () {
 			//StartCoroutine (smooth_move (Vector3.right, .25f, other.gameObject));
 			//other.gameObject.transform.position.Set(
 			other.rigidbody.AddForce (new Vector3(0f, 500f, 0f));
+		}else if (other.gameObject.tag == "DoubleJump") {
+			hasDoubleJumpPowerup = true;
 		}
 	}
 				IEnumerator smooth_move(Vector3 direction,float speed, GameObject gameObj){

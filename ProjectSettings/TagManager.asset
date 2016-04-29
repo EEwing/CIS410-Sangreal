@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Lose
   - JumpEnemy
+  - DoubleJump
   layers:
   - Default
   - TransparentFX
