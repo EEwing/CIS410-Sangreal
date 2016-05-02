@@ -10,10 +10,11 @@ public class PlayerManager : Entity {
 	private bool hasDoubleJumped = false;
 	private bool isInAir = false;
 	private bool hasDoubleJumpPowerup = false;
+	private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
-
+		rb = GetComponent<Rigidbody> ();
     }
     
     bool IsGrounded() {
@@ -32,6 +33,9 @@ public class PlayerManager : Entity {
 		} else {
 			if ((isInAir == true && hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
+					
+					rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
+
 					GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
 					hasDoubleJumped = true;
 					Debug.Log ("Double jumping");
