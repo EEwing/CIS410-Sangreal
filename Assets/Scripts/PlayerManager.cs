@@ -31,7 +31,7 @@ public class PlayerManager : Entity {
 				Debug.Log ("Jumping");
 			}
 		} else {
-			if ((isInAir == true && hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
+			if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
 					
 					rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
