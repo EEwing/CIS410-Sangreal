@@ -9,11 +9,12 @@ public class PlayerManager : Damageable {
     public float restitutionScale = 1.1f;
 	private bool hasDoubleJumped = false;
 	private bool isInAir = false;
-	private bool hasDoubleJumpPowerup = false;
+	public bool hasDoubleJumpPowerup = false;
+	private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
-
+		rb = GetComponent<Rigidbody> ();
     }
     
     bool IsGrounded() {
@@ -30,8 +31,11 @@ public class PlayerManager : Damageable {
 				Debug.Log ("Jumping");
 			}
 		} else {
-			if ((isInAir == true && hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
+			if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
+					
+					rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
+
 					GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
 					hasDoubleJumped = true;
 					Debug.Log ("Double jumping");
@@ -56,7 +60,7 @@ void FixedUpdate () {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		Debug.Log("Collided with "+other.gameObject.name);
+		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Lose") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		} else if (other.gameObject.tag == "JumpEnemy") {
@@ -71,13 +75,9 @@ void FixedUpdate () {
 	}
 
 	void OnCollisionEnter(Collision other) {
-		Debug.Log("touched with "+other.gameObject.name);
+		//Debug.Log("touched with "+other.gameObject.name);
 		if (other.gameObject.tag == "JumpEnemy") {
 			Debug.Log ("adding force");
-			//Vector3 destination = Vector3.right * 5f;
-			//other.gameObject.transform.position = Vector3.Lerp(other.gameObject.transform.position, destination, 1f * Time.deltaTime);
-			//StartCoroutine (smooth_move (Vector3.right, .25f, other.gameObject));
-			//other.gameObject.transform.position.Set(
 			other.rigidbody.AddForce (new Vector3(0f, 500f, 0f));
 		}else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
@@ -101,5 +101,4 @@ void FixedUpdate () {
     protected override void OnDeath() {
 
     }
-		
 }

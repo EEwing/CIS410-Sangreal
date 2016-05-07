@@ -47,7 +47,34 @@ public class MovingPlatformHorizontal : MonoBehaviour {
 		if (transform.position.x <= l) {
 			right = true;
 		}
-
-
+	}
+	void OnCollisionEnter(Collision playerObject)
+	{
+		Debug.Log ("enter moving platform");
+		if(playerObject.gameObject.name.Contains("Player"))
+		{
+			playerObject.transform.parent = gameObject.transform;
+		}
+	}
+	int i = 0;
+	void OnCollisionStay(Collision playerObject)
+	{
+		Debug.Log ("stay" + i++);
+		if(playerObject.transform.position.y >= transform.position.y)
+		{
+			playerObject.transform.parent = gameObject.transform;
+		}
+		else
+		{
+			playerObject.transform.parent=null;
+		}
+	}
+	void OnCollisionExit(Collision playerObject)
+	{
+		Debug.Log ("EXIT");
+		if(playerObject.gameObject.name.Contains("Player"))
+		{
+			playerObject.transform.parent=null;
+		}
 	}
 }
