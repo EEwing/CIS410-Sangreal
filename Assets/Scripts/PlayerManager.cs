@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class PlayerManager : Entity {
+public class PlayerManager : Damageable {
 
     public float jumpForce = 10f;
     public float airModifier = 5f;
@@ -83,18 +83,23 @@ void FixedUpdate () {
 			hasDoubleJumpPowerup = true;
 		}
 	}
-				IEnumerator smooth_move(Vector3 direction,float speed, GameObject gameObj){
-					float startime = Time.time;
-					Vector3 start_pos = gameObj.transform.position; //Starting position.
-					Vector3 end_pos = gameObj.transform.position + direction; //Ending position.
 
-					while (start_pos != end_pos && ((Time.time - startime)*speed) < 1f) { 
-						float move = Mathf.Lerp (0,1, (Time.time - startime)*speed);
+    IEnumerator smooth_move(Vector3 direction,float speed, GameObject gameObj){
+		float startime = Time.time;
+		Vector3 start_pos = gameObj.transform.position; //Starting position.
+		Vector3 end_pos = gameObj.transform.position + direction; //Ending position.
 
-						gameObj.transform.position += direction*move;
+		while (start_pos != end_pos && ((Time.time - startime)*speed) < 1f) { 
+			float move = Mathf.Lerp (0,1, (Time.time - startime)*speed);
 
-						yield return null;
-					}
-				}
+			gameObj.transform.position += direction*move;
+
+			yield return null;
+		}
+	}
+
+    protected override void OnDeath() {
+
+    }
 		
 }

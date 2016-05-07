@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MovingPlatform : MonoBehaviour {
+public class MovingPlatform : Entity {
 
     public GameObject platform;
     public GameObject[] track;
-    public float speed = 1;
     public bool reversed = false;
 
     private int trackSegment;
