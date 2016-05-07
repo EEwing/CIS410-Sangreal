@@ -47,6 +47,7 @@ public class MovingPlatformHorizontal : MonoBehaviour {
 		if (transform.position.x <= l) {
 			right = true;
 		}
+
 	}
 	void OnCollisionEnter(Collision playerObject)
 	{

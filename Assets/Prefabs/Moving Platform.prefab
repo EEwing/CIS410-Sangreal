@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3376050}
   - 23: {fileID: 2330436}
   - 65: {fileID: 6591894}
+  - 114: {fileID: 11442124}
   m_Layer: 0
   m_Name: Short Platform
   m_TagString: Untagged
@@ -160,6 +161,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11442124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07afd74cc895e0d48b69649de8c843da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11475146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,11 +183,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c5cb7bf1fb54a4a9d6e5e588b15bc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.2
   platform: {fileID: 150322}
   track:
   - {fileID: 158618}
   - {fileID: 193744}
-  speed: 0.2
   reversed: 1
 --- !u!1001 &100100000
 Prefab:

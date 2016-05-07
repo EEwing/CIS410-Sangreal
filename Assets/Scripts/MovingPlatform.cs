@@ -39,5 +39,6 @@ public class MovingPlatform : Entity {
                 platform.transform.Translate(diff.normalized * speed);
             }
         }
-	}
+    }
+
 }

@@ -7,6 +7,7 @@ public class PlayerManager : Damageable {
     public float jumpForce = 10f;
     public float airModifier = 5f;
     public float restitutionScale = 1.1f;
+
 	private bool hasDoubleJumped = false;
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
