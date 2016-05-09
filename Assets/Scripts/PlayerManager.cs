@@ -2,8 +2,8 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class PlayerManager : Damageable {
-
+public class PlayerManager : Entity {
+	
     public float jumpForce = 10f;
     public float airModifier = 5f;
     public float restitutionScale = 1.1f;
@@ -42,10 +42,15 @@ public class PlayerManager : Damageable {
 				}
 			}
 		}
+		if (Input.GetKeyDown (KeyCode.D)) {
+			speed = 70f;
+			Invoke ("reduceSpeed", 0.15f);
+		}
 	}
 
-// Update is called once per frame
-void FixedUpdate () {
+	// Update is called once per frame
+	void FixedUpdate () {
+		
         Vector3 toTranslate = new Vector3(Input.GetAxis("Horizontal")*speed*Time.deltaTime, 0f, 0f);
         
             //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
@@ -59,12 +64,16 @@ void FixedUpdate () {
         GetComponent<Rigidbody>().transform.Translate(toTranslate);
 	}
 
+	void reduceSpeed(){
+		speed = 10f;	
+	}
+
 	void OnTriggerEnter(Collider other) {
 		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Lose") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		} else if (other.gameObject.tag == "JumpEnemy") {
-			Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
+			//Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
 			//r.AddForce (new Vector3(0f, 500f, 0f));
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "DoubleJump") {
@@ -83,22 +92,4 @@ void FixedUpdate () {
 			hasDoubleJumpPowerup = true;
 		}
 	}
-
-    IEnumerator smooth_move(Vector3 direction,float speed, GameObject gameObj){
-		float startime = Time.time;
-		Vector3 start_pos = gameObj.transform.position; //Starting position.
-		Vector3 end_pos = gameObj.transform.position + direction; //Ending position.
-
-		while (start_pos != end_pos && ((Time.time - startime)*speed) < 1f) { 
-			float move = Mathf.Lerp (0,1, (Time.time - startime)*speed);
-
-			gameObj.transform.position += direction*move;
-
-			yield return null;
-		}
-	}
-
-    protected override void OnDeath() {
-
-    }
 }
