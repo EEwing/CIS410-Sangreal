@@ -1353,11 +1353,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 495938, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -18.3
+      value: -18.5
       objectReference: {fileID: 0}
     - target: {fileID: 495938, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -348.8
+      value: -350.46
       objectReference: {fileID: 0}
     - target: {fileID: 495938, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1381,7 +1381,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 495938, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: hasDoubleJumpPowerup
@@ -1806,7 +1806,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.6
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
       propertyPath: m_LocalPosition.y

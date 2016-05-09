@@ -42,8 +42,8 @@ public class PlayerManager : Entity {
 				}
 			}
 		}
-		if (Input.GetKeyDown (KeyCode.D)) {
-			speed = 70f;
+		if (Input.GetKeyDown (KeyCode.X) && IsGrounded()) {
+			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
 		}
 	}
