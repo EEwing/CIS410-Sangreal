@@ -10,6 +10,10 @@ public class PlayerManager : Entity {
 	private bool hasDoubleJumped = false;
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
+	public bool hasDashPowerup = false;
+
+
+
 	private Rigidbody rb;
 
 	// Use this for initialization
@@ -42,7 +46,7 @@ public class PlayerManager : Entity {
 				}
 			}
 		}
-		if (Input.GetKeyDown (KeyCode.X) && IsGrounded()) {
+		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
 			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
 		}
@@ -50,9 +54,7 @@ public class PlayerManager : Entity {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		
-        Vector3 toTranslate = new Vector3(Input.GetAxis("Horizontal")*speed*Time.deltaTime, 0f, 0f);
-        
+		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
             //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
         
             //Vector3 force = new Vector3(Input.GetAxis("Horizontal")*speed * airModifier * Time.deltaTime, 0, 0);
@@ -60,8 +62,9 @@ public class PlayerManager : Entity {
             //    force.x *= restitutionScale;
             //}
             //GetComponent<Rigidbody>().AddForce(force);
-        
-        GetComponent<Rigidbody>().transform.Translate(toTranslate);
+
+			GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+
 	}
 
 	void reduceSpeed(){
@@ -78,6 +81,11 @@ public class PlayerManager : Entity {
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
+			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
+			Destroy (other.gameObject);
+		}
+		else if (other.gameObject.tag == "Dash") {
+			hasDashPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
 			Destroy (other.gameObject);
 		}
