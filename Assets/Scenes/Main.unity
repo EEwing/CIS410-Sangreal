@@ -218,10 +218,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  Health: 0
   jumpForce: 1400
   airModifier: 5
   restitutionScale: 1.1
+  hasDoubleJumpPowerup: 0
+  hasDashPowerup: 0
 --- !u!1 &383681646
 GameObject:
   m_ObjectHideFlags: 0
