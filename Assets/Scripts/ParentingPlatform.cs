@@ -7,6 +7,9 @@ public class ParentingPlatform : MonoBehaviour {
         if (playerObject.gameObject.name.Contains("Player")) {
             playerObject.transform.parent = gameObject.transform;
         }
+        if(playerObject.gameObject.CompareTag("Player")) {
+            ((PlayerManager)playerObject.gameObject.GetComponent<PlayerManager>()).Damage(10);
+        }
     }
     int i = 0;
     void OnCollisionStay(Collision playerObject) {

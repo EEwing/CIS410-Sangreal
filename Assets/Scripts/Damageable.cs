@@ -1,14 +1,15 @@
-﻿using UnityEngine.UI;
-using System.Collections;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public abstract class Damageable : Entity {
 
-    public int maxHealth;
+    public int MaxHealth;
     public int Health;
-    public Text healthText;
+
+    public Image HealthBar;
 
     public void Awake() {
-        Health = maxHealth;
+        Health = MaxHealth;
         UpdateTextBox();
     }
 
@@ -19,11 +20,9 @@ public abstract class Damageable : Entity {
     }
 
     private void UpdateTextBox() {
-        if (healthText == null) {
-            return;
-        }
-
-        healthText.text = "Health: " + Health;
+        float fillAmt = (float)Health / (float)MaxHealth;
+        Debug.Log("Fill amount: " + fillAmt);
+        HealthBar.fillAmount = fillAmt;
     }
 
     public bool CheckForDeath() {

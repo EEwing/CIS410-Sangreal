@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class PlayerManager : Entity {
+public class PlayerManager : Damageable {
 	
     public float jumpForce = 10f;
     public float airModifier = 5f;
@@ -12,8 +13,6 @@ public class PlayerManager : Entity {
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
-
-
 
 	private Rigidbody rb;
 
@@ -101,4 +100,8 @@ public class PlayerManager : Entity {
 			hasDoubleJumpPowerup = true;
 		}
 	}
+
+    protected override void OnDeath() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
