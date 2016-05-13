@@ -1,11 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlatformEnemy : MonoBehaviour {
+public class PlatformEnemy : Damageable {
 
 	public GameObject player; 
-	public int moveSpeed;
-	public int health;
 	public int engageDistance;
 
 	// Use this for initialization
@@ -17,17 +15,14 @@ public class PlatformEnemy : MonoBehaviour {
 	void Update () {
 		if (Vector3.Distance (player.transform.position, transform.position) < engageDistance) {
 			transform.LookAt (player.transform.position); 
-			transform.position += transform.forward * moveSpeed * Time.deltaTime;
+			transform.position += transform.forward * speed * Time.deltaTime;
 		}
 	}
 
 	void OnTriggerEnter(Collider other) {
 		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Weapon") {
-			health--;
-			if (health == 0) {
-				Destroy (gameObject);
-			}
+            Damage(5);
 		} 
 	}
 }

@@ -36,7 +36,7 @@ public abstract class Damageable : Entity {
     }
 
     protected virtual void OnDeath() {
-
+        gameObject.SetActive(false);
     }
 
 }

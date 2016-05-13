@@ -8,8 +8,10 @@ public class PlayerManager : Damageable {
     public float jumpForce = 10f;
     public float airModifier = 5f;
     public float restitutionScale = 1.1f;
+    public float AttackLength = 10f;
+    public float AttackStrength = 10f;
 
-	private bool hasDoubleJumped = false;
+    private bool hasDoubleJumped = false;
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
@@ -27,6 +29,23 @@ public class PlayerManager : Damageable {
     }
 
 	void Update(){
+
+
+        if(Input.GetKeyDown(KeyCode.Z)) {
+            Debug.Log("Trying to attack");
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach(GameObject enemy in enemies) {
+                Vector3 diff = enemy.transform.position - transform.position;
+                Debug.Log("Found an enemy @ " + diff);
+                if (diff.magnitude < AttackLength) {
+                    ((Rigidbody)enemy.GetComponent<Rigidbody>()).AddForce(diff.normalized * AttackStrength);
+                    ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
+                }
+            }
+        }
+
+
+
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;
 			isInAir = false;
@@ -47,6 +66,7 @@ public class PlayerManager : Damageable {
 				}
 			}
 		}
+
 		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
 			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
@@ -76,12 +96,9 @@ public class PlayerManager : Damageable {
 		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Lose") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
-		} else if (other.gameObject.tag == "JumpEnemy") {
-			//I take damage here
-			health--;
-			if (health==0){
-				SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
-			}
+		} else if (other.gameObject.tag == "Enemy") {
+            //I take damage here
+            Damage(7);
 		} else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
