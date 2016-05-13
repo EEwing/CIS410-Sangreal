@@ -20,9 +20,11 @@ public abstract class Damageable : Entity {
     }
 
     private void UpdateTextBox() {
-        float fillAmt = (float)Health / (float)MaxHealth;
-        Debug.Log("Fill amount: " + fillAmt);
-        HealthBar.fillAmount = fillAmt;
+        if(HealthBar != null) {
+            float fillAmt = (float)Health / (float)MaxHealth;
+            Debug.Log("Fill amount: " + fillAmt);
+            HealthBar.fillAmount = fillAmt;
+        }
     }
 
     public bool CheckForDeath() {
