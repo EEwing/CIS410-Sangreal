@@ -13,6 +13,7 @@ public class PlayerManager : Damageable {
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
+	public int health;
 
 	private Rigidbody rb;
 
@@ -76,9 +77,11 @@ public class PlayerManager : Damageable {
 		if (other.gameObject.tag == "Lose") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		} else if (other.gameObject.tag == "JumpEnemy") {
-			//Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
-			//r.AddForce (new Vector3(0f, 500f, 0f));
-			Destroy (other.gameObject);
+			//I take damage here
+			health--;
+			if (health==0){
+				SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+			}
 		} else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
@@ -94,8 +97,8 @@ public class PlayerManager : Damageable {
 	void OnCollisionEnter(Collision other) {
 		//Debug.Log("touched with "+other.gameObject.name);
 		if (other.gameObject.tag == "JumpEnemy") {
-			Debug.Log ("adding force");
-			other.rigidbody.AddForce (new Vector3(0f, 500f, 0f));
+			//Debug.Log ("adding force");
+			//other.rigidbody.AddForce (new Vector3(0f, 500f, 0f));
 		}else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
 		}

@@ -9,6 +9,7 @@ TagManager:
   - DoubleJump
   - Player
   - Dash
+  - Weapon
   layers:
   - Default
   - TransparentFX
