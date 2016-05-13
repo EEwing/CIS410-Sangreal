@@ -2,8 +2,8 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class PlayerManager : Damageable {
-
+public class PlayerManager : Entity {
+	
     public float jumpForce = 10f;
     public float airModifier = 5f;
     public float restitutionScale = 1.1f;
@@ -11,6 +11,10 @@ public class PlayerManager : Damageable {
 	private bool hasDoubleJumped = false;
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
+	public bool hasDashPowerup = false;
+
+
+
 	private Rigidbody rb;
 
 	// Use this for initialization
@@ -43,12 +47,15 @@ public class PlayerManager : Damageable {
 				}
 			}
 		}
+		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
+			speed = 110f;
+			Invoke ("reduceSpeed", 0.15f);
+		}
 	}
 
-// Update is called once per frame
-void FixedUpdate () {
-        Vector3 toTranslate = new Vector3(Input.GetAxis("Horizontal")*speed*Time.deltaTime, 0f, 0f);
-        
+	// Update is called once per frame
+	void FixedUpdate () {
+		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
             //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
         
             //Vector3 force = new Vector3(Input.GetAxis("Horizontal")*speed * airModifier * Time.deltaTime, 0, 0);
@@ -56,8 +63,13 @@ void FixedUpdate () {
             //    force.x *= restitutionScale;
             //}
             //GetComponent<Rigidbody>().AddForce(force);
-        
-        GetComponent<Rigidbody>().transform.Translate(toTranslate);
+
+			GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+
+	}
+
+	void reduceSpeed(){
+		speed = 10f;	
 	}
 
 	void OnTriggerEnter(Collider other) {
@@ -65,11 +77,16 @@ void FixedUpdate () {
 		if (other.gameObject.tag == "Lose") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		} else if (other.gameObject.tag == "JumpEnemy") {
-			Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
+			//Rigidbody r = other.gameObject.GetComponent<Rigidbody> ();
 			//r.AddForce (new Vector3(0f, 500f, 0f));
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
+			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
+			Destroy (other.gameObject);
+		}
+		else if (other.gameObject.tag == "Dash") {
+			hasDashPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
 			Destroy (other.gameObject);
 		}
@@ -84,22 +101,4 @@ void FixedUpdate () {
 			hasDoubleJumpPowerup = true;
 		}
 	}
-
-    IEnumerator smooth_move(Vector3 direction,float speed, GameObject gameObj){
-		float startime = Time.time;
-		Vector3 start_pos = gameObj.transform.position; //Starting position.
-		Vector3 end_pos = gameObj.transform.position + direction; //Ending position.
-
-		while (start_pos != end_pos && ((Time.time - startime)*speed) < 1f) { 
-			float move = Mathf.Lerp (0,1, (Time.time - startime)*speed);
-
-			gameObj.transform.position += direction*move;
-
-			yield return null;
-		}
-	}
-
-    protected override void OnDeath() {
-
-    }
 }

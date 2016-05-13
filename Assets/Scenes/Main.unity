@@ -359,6 +359,7 @@ MonoBehaviour:
   airModifier: 5
   restitutionScale: 1.1
   hasDoubleJumpPowerup: 0
+  hasDashPowerup: 0
 --- !u!1 &383681646
 GameObject:
   m_ObjectHideFlags: 0
