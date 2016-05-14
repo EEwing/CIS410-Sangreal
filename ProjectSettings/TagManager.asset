@@ -10,6 +10,10 @@ TagManager:
   - Player
   - Dash
   - Weapon
+  - Level2
+  - Level3
+  - Level4
+  - Level5
   layers:
   - Default
   - TransparentFX

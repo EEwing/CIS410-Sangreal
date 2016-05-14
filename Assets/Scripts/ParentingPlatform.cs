@@ -8,7 +8,7 @@ public class ParentingPlatform : MonoBehaviour {
             playerObject.transform.parent = gameObject.transform;
         }
         if(playerObject.gameObject.CompareTag("Player")) {
-            ((PlayerManager)playerObject.gameObject.GetComponent<PlayerManager>()).Damage(10);
+           // ((PlayerManager)playerObject.gameObject.GetComponent<PlayerManager>()).Damage(10);
         }
     }
     int i = 0;

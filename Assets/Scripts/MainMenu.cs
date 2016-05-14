@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class MainMenu : MonoBehaviour {
 	public bool isStart;
@@ -18,7 +20,7 @@ public class MainMenu : MonoBehaviour {
 
 	void OnMouseUp(){
 		if (isStart) {
-			Application.LoadLevel (1);
+			SceneManager.LoadScene ("Level 1");
 		}
 		if (isQuit) {
 			Application.Quit ();

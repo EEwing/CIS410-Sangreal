@@ -97,17 +97,27 @@ public class PlayerManager : Damageable {
 		if (other.gameObject.tag == "Lose") {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		} else if (other.gameObject.tag == "Enemy") {
-            //I take damage here
-            Damage(7);
+			//I take damage here
+			Damage (7);
 		} else if (other.gameObject.tag == "DoubleJump") {
 			hasDoubleJumpPowerup = true;
-			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
+			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
 			Destroy (other.gameObject);
-		}
-		else if (other.gameObject.tag == "Dash") {
+		} else if (other.gameObject.tag == "Dash") {
 			hasDashPowerup = true;
-			SpecialEffectsHelper.Instance.PowerUp(other.gameObject.transform.position);
+			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
 			Destroy (other.gameObject);
+		} else if (other.gameObject.tag == "Level2") {
+			SceneManager.LoadScene ("Level 2");
+		}
+		else if (other.gameObject.tag == "Level3") {
+			SceneManager.LoadScene ("Level 3");
+		}
+		else if (other.gameObject.tag == "Level4") {
+			SceneManager.LoadScene ("Level 4");
+		}
+		else if (other.gameObject.tag == "Level5") {
+			SceneManager.LoadScene ("Final Level");
 		}
 	}
 
