@@ -11,6 +11,8 @@ public class PlayerManager : Damageable {
     public float AttackLength = 10f;
     public float AttackStrength = 10f;
 
+	public GameObject knifePrefab;
+
     private bool hasDoubleJumped = false;
 	private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
@@ -43,6 +45,12 @@ public class PlayerManager : Damageable {
                 }
             }
         }
+
+		if (Input.GetKey (KeyCode.F)) {
+			GameObject knife = (GameObject) Instantiate (knifePrefab, transform.position + new Vector3(1,1,0), transform.rotation);
+			Physics.IgnoreCollision (knife.GetComponent<Collider>(), GetComponent<Collider>());
+			knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750);
+		}
 
 
 
