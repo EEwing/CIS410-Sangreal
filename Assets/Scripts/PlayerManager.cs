@@ -12,6 +12,7 @@ public class PlayerManager : Damageable {
     public float AttackStrength = 10f;
 
 	public GameObject knifePrefab;
+	private float elapsedTime;
 
     private bool hasDoubleJumped = false;
 	private bool isInAir = false;
@@ -45,11 +46,14 @@ public class PlayerManager : Damageable {
                 }
             }
         }
-
+		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
-			GameObject knife = (GameObject) Instantiate (knifePrefab, transform.position + new Vector3(1,1,0), transform.rotation);
-			Physics.IgnoreCollision (knife.GetComponent<Collider>(), GetComponent<Collider>());
-			knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750);
+			if (elapsedTime > 0.1) {
+				elapsedTime = 0;
+				GameObject knife = (GameObject)Instantiate (knifePrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
+				Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
+				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750);
+			}
 		}
 
 
