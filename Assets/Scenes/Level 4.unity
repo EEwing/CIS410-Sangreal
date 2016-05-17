@@ -1245,6 +1245,10 @@ Prefab:
       propertyPath: hasDashPowerup
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: knifePrefab
+      value: 
+      objectReference: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0

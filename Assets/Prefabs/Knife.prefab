@@ -14,7 +14,7 @@ GameObject:
   - 54: {fileID: 5437066}
   - 114: {fileID: 11470626}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Knife
   m_TagString: Knife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,6 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24843e30624b04a94876727bfa562ed4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  facing: 0
 --- !u!135 &13558180
 SphereCollider:
   m_ObjectHideFlags: 1
