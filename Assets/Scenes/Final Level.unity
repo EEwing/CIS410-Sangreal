@@ -126,6 +126,7 @@ MonoBehaviour:
   restitutionScale: 1.1
   AttackLength: 10
   AttackStrength: 10
+  knifePrefab: {fileID: 106170, guid: c23417568fce3467eb36333aaf64c7f3, type: 2}
   hasDoubleJumpPowerup: 1
   hasDashPowerup: 1
   health: 0
