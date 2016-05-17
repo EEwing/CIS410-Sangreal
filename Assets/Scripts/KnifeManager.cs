@@ -15,9 +15,10 @@ public class KnifeManager : MonoBehaviour {
 
 	void FixedUpdate(){
 		i++;
-		if (i > 500) {
+		if (i > 300) {
 			Destroy (gameObject);
 		}
+		transform.Rotate (new Vector3 (0, 0, -20));
 	}
 
 	void OnCollisionEnter(Collision other) {
