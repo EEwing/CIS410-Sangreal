@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 1ba8347f1ab35c549b987e80f1a17a39
+timeCreated: 1463465785
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: chest
+    100006: //RootNode
+    100008: Enemy Armor
+    100010: Enemy Body
+    100012: head
+    100014: head_end
+    100016: l-ankle
+    100018: l-arm
+    100020: l-elbow
+    100022: l-elbow_end
+    100024: l-finger-base
+    100026: l-finger-end
+    100028: l-finger-end.001
+    100030: l-finger-end.001_end
+    100032: l-foot
+    100034: l-foot_end
+    100036: l-forearm
+    100038: l-forearm_end
+    100040: l-hand
+    100042: l-knee
+    100044: l-knee_end
+    100046: l-shin
+    100048: l-shin_end
+    100050: l-thigh
+    100052: l-thumb-base
+    100054: l-thumb-mid
+    100056: l-thumb-tip
+    100058: l-thumb-tip_end
+    100060: l-wrist
+    100062: Lamp
+    100064: Lamp.001
+    100066: Lamp.002
+    100068: neck
+    100070: r-ankle
+    100072: r-arm
+    100074: r-elbow
+    100076: r-elbow_end
+    100078: r-foot
+    100080: r-foot_end
+    100082: r-forearm
+    100084: r-forearm_end
+    100086: r-hand
+    100088: r-knee
+    100090: r-knee_end
+    100092: r-shin
+    100094: r-shin_end
+    100096: r-thigh
+    100098: r-weapon
+    100100: r-weapon_end
+    100102: r-wrist
+    100104: stomach
+    400000: Armature
+    400002: Camera
+    400004: chest
+    400006: //RootNode
+    400008: Enemy Armor
+    400010: Enemy Body
+    400012: head
+    400014: head_end
+    400016: l-ankle
+    400018: l-arm
+    400020: l-elbow
+    400022: l-elbow_end
+    400024: l-finger-base
+    400026: l-finger-end
+    400028: l-finger-end.001
+    400030: l-finger-end.001_end
+    400032: l-foot
+    400034: l-foot_end
+    400036: l-forearm
+    400038: l-forearm_end
+    400040: l-hand
+    400042: l-knee
+    400044: l-knee_end
+    400046: l-shin
+    400048: l-shin_end
+    400050: l-thigh
+    400052: l-thumb-base
+    400054: l-thumb-mid
+    400056: l-thumb-tip
+    400058: l-thumb-tip_end
+    400060: l-wrist
+    400062: Lamp
+    400064: Lamp.001
+    400066: Lamp.002
+    400068: neck
+    400070: r-ankle
+    400072: r-arm
+    400074: r-elbow
+    400076: r-elbow_end
+    400078: r-foot
+    400080: r-foot_end
+    400082: r-forearm
+    400084: r-forearm_end
+    400086: r-hand
+    400088: r-knee
+    400090: r-knee_end
+    400092: r-shin
+    400094: r-shin_end
+    400096: r-thigh
+    400098: r-weapon
+    400100: r-weapon_end
+    400102: r-wrist
+    400104: stomach
+    4300000: Enemy Armor
+    4300002: Enemy Body
+    7400000: Armature|ArmatureAction.000
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|Bow-High
+    7400006: Armature|Bow-Low
+    7400008: Armature|Bow-Middle
+    7400010: Armature|Breathing
+    7400012: Armature|Breathing.001
+    7400014: Armature|dash
+    7400016: Armature|dash.begin
+    7400018: Armature|dash.end
+    7400020: Armature|Halberd--Heavy
+    7400022: Armature|Halberd--Light
+    7400024: Armature|Hitstun
+    7400026: Armature|Jump-00
+    7400028: Armature|Jump-00.001
+    7400030: Armature|Jump-00.double
+    7400032: Armature|Jump-00.land
+    7400034: Armature|Jump-00.land.001
+    7400036: Armature|Jump-00.lift
+    7400038: Armature|Jump-00.lift.001
+    7400040: Armature|jump-01
+    7400042: Armature|jump-01.Double
+    7400044: Armature|jump-01.land
+    7400046: Armature|jump-01.land.Display
+    7400048: Armature|jump-01.Lift
+    7400050: Armature|jump-01.Lift.Display
+    7400052: Armature|Knife Throw
+    7400054: Armature|knockdown
+    7400056: Armature|Marching
+    7400058: Armature|Marching.001
+    7400060: Armature|Player BodyAction
+    7400062: Armature|RunCycle
+    7400064: Armature|RunCycle.001
+    7400066: Armature|RunCycle.002
+    7400068: Armature|Sword-Heavy
+    7400070: Armature|Sword-Light
+    7400072: Armature|Test--Slash
+    7400074: Enemy Armor|ArmatureAction.000
+    7400076: Enemy Armor|dash
+    7400078: Enemy Armor|Player BodyAction
+    7400080: Enemy Armor|RunCycle.001
+    7400082: Enemy Body|ArmatureAction.000
+    7400084: Enemy Body|dash
+    7400086: Enemy Body|Player BodyAction
+    7400088: Enemy Body|RunCycle.001
+    9500000: //RootNode
+    13700000: Enemy Armor
+    13700002: Enemy Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
