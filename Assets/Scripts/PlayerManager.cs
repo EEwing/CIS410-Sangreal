@@ -11,6 +11,8 @@ public class PlayerManager : Damageable {
     public float AttackLength = 10f;
     public float AttackStrength = 10f;
 
+	private int facing = 1;
+
 	public GameObject knifePrefab;
 	private float elapsedTime;
 
@@ -52,7 +54,7 @@ public class PlayerManager : Damageable {
 				elapsedTime = 0;
 				GameObject knife = (GameObject)Instantiate (knifePrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
 				Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
-				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750);
+				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 * facing);
 			}
 		}
 
@@ -87,6 +89,11 @@ public class PlayerManager : Damageable {
 
 	// Update is called once per frame
 	void FixedUpdate () {
+		if (Input.GetAxis ("Horizontal") > 0) {
+			facing = 1;
+		} else if (Input.GetAxis ("Horizontal") < 0) {
+			facing = -1;
+		}
 		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
             //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
         
