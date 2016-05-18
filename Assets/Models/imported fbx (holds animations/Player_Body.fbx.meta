@@ -170,7 +170,4563 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.001
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Breathing
+      takeName: Armature|Breathing
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Breathing.001
+      takeName: Armature|Breathing.001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|dash
+      takeName: Armature|dash
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|dash.begin
+      takeName: Armature|dash.begin
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|dash.end
+      takeName: Armature|dash.end
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Halberd--Heavy
+      takeName: Armature|Halberd--Heavy
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Halberd--Light
+      takeName: Armature|Halberd--Light
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Hitstun
+      takeName: Armature|Hitstun
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00
+      takeName: Armature|Jump-00
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00.001
+      takeName: Armature|Jump-00.001
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00.double
+      takeName: Armature|Jump-00.double
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00.land
+      takeName: Armature|Jump-00.land
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00.land.001
+      takeName: Armature|Jump-00.land.001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00.lift
+      takeName: Armature|Jump-00.lift
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump-00.lift.001
+      takeName: Armature|Jump-00.lift.001
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump-01
+      takeName: Armature|jump-01
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump-01.Double
+      takeName: Armature|jump-01.Double
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump-01.land
+      takeName: Armature|jump-01.land
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump-01.land.Display
+      takeName: Armature|jump-01.land.Display
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump-01.Lift
+      takeName: Armature|jump-01.Lift
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump-01.Lift.Display
+      takeName: Armature|jump-01.Lift.Display
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Knife Throw
+      takeName: Armature|Knife Throw
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|knockdown
+      takeName: Armature|knockdown
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Player BodyAction
+      takeName: Armature|Player BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunCycle
+      takeName: Armature|RunCycle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunCycle.001
+      takeName: Armature|RunCycle.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunCycle.002
+      takeName: Armature|RunCycle.002
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Sword-Heavy
+      takeName: Armature|Sword-Heavy
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Sword-Light
+      takeName: Armature|Sword-Light
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Test--Slash
+      takeName: Armature|Test--Slash
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Player Body|dash
+      takeName: Player Body|dash
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Player Body|Player BodyAction
+      takeName: Player Body|Player BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Player Body|RunCycle.001
+      takeName: Player Body|RunCycle.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l-ankle
+        weight: 1
+      - path: Armature/l-ankle/l-foot
+        weight: 1
+      - path: Armature/l-ankle/l-foot/l-foot_end
+        weight: 1
+      - path: Armature/l-elbow
+        weight: 1
+      - path: Armature/l-elbow/l-elbow_end
+        weight: 1
+      - path: Armature/l-knee
+        weight: 1
+      - path: Armature/l-knee/l-knee_end
+        weight: 1
+      - path: Armature/l-wrist
+        weight: 1
+      - path: Armature/l-wrist/l-hand
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-finger-base/l-finger-end/l-finger-end.001/l-finger-end.001_end
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip
+        weight: 1
+      - path: Armature/l-wrist/l-hand/l-thumb-base/l-thumb-mid/l-thumb-tip/l-thumb-tip_end
+        weight: 1
+      - path: Armature/r-ankle
+        weight: 1
+      - path: Armature/r-ankle/r-foot
+        weight: 1
+      - path: Armature/r-ankle/r-foot/r-foot_end
+        weight: 1
+      - path: Armature/r-elbow
+        weight: 1
+      - path: Armature/r-elbow/r-elbow_end
+        weight: 1
+      - path: Armature/r-knee
+        weight: 1
+      - path: Armature/r-knee/r-knee_end
+        weight: 1
+      - path: Armature/r-wrist
+        weight: 1
+      - path: Armature/r-wrist/r-hand
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon
+        weight: 1
+      - path: Armature/r-wrist/r-hand/r-weapon/r-weapon_end
+        weight: 1
+      - path: Armature/stomach
+        weight: 1
+      - path: Armature/stomach/chest
+        weight: 1
+      - path: Armature/stomach/chest/l-arm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm
+        weight: 1
+      - path: Armature/stomach/chest/l-arm/l-forearm/l-forearm_end
+        weight: 1
+      - path: Armature/stomach/chest/neck
+        weight: 1
+      - path: Armature/stomach/chest/neck/head
+        weight: 1
+      - path: Armature/stomach/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/stomach/chest/r-arm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm
+        weight: 1
+      - path: Armature/stomach/chest/r-arm/r-forearm/r-forearm_end
+        weight: 1
+      - path: Armature/stomach/l-thigh
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin
+        weight: 1
+      - path: Armature/stomach/l-thigh/l-shin/l-shin_end
+        weight: 1
+      - path: Armature/stomach/r-thigh
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin
+        weight: 1
+      - path: Armature/stomach/r-thigh/r-shin/r-shin_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: Player Body
+        weight: 1
+      - path: Player Body.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
