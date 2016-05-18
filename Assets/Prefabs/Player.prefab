@@ -31,6 +31,7 @@ GameObject:
   - 23: {fileID: 2372880}
   - 54: {fileID: 5481280}
   - 114: {fileID: 11405218}
+  - 114: {fileID: 11471444}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -88,7 +89,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.64, z: 0}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 444420}
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135878}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 792f9cf6c36438842810584da8167687, type: 3}
   m_Name: 
@@ -263,15 +264,30 @@ MonoBehaviour:
   MaxHealth: 100
   Health: 0
   HealthBar: {fileID: 0}
-  jumpForce: 1400
-  airModifier: 5
   restitutionScale: 1.1
   AttackLength: 2.5
   AttackStrength: 400
-  knifePrefab: {fileID: 106170, guid: c23417568fce3467eb36333aaf64c7f3, type: 2}
+  health: 2
+--- !u!114 &11471444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468ae822000134cef9411b8f13d8993e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  MaxHealth: 0
+  Health: 0
+  HealthBar: {fileID: 0}
+  jumpForce: 1400
+  airModifier: 5
+  knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
   hasDoubleJumpPowerup: 0
   hasDashPowerup: 0
-  health: 2
 --- !u!124 &12466816
 Behaviour:
   m_ObjectHideFlags: 1

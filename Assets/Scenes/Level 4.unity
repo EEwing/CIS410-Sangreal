@@ -1237,21 +1237,13 @@ Prefab:
       propertyPath: HealthBar
       value: 
       objectReference: {fileID: 1726586060}
-    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+    - target: {fileID: 11471444, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: hasDoubleJumpPowerup
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+    - target: {fileID: 11471444, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
       propertyPath: hasDashPowerup
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
-      propertyPath: knifePrefab
-      value: 
-      objectReference: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
-    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
@@ -3074,26 +3066,6 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 135878, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_PrefabInternal: {fileID: 811431623}
---- !u!114 &1936265629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1936265622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 468ae822000134cef9411b8f13d8993e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  MaxHealth: 0
-  Health: 0
-  HealthBar: {fileID: 0}
-  jumpForce: 1000
-  airModifier: 5
-  knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
-  hasDoubleJumpPowerup: 1
-  hasDashPowerup: 1
 --- !u!1001 &1953702254
 Prefab:
   m_ObjectHideFlags: 0
