@@ -25,7 +25,7 @@ public class PlayerMovementManager : Damageable {
 	}
 
 	bool IsGrounded() {
-		return Physics.Raycast(transform.position, -Vector3.up, GetComponent<Collider>().bounds.extents.y + 0.1f);
+		return Physics.Raycast(transform.position, -Vector3.up, GetComponent<Collider>().bounds.extents.y + 0.5f);
 	}
 
 
