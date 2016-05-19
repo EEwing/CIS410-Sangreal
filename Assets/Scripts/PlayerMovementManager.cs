@@ -12,6 +12,7 @@ public class PlayerMovementManager : Damageable {
 
 	public GameObject knifePrefab;
 	private float elapsedTime;
+    private float dashLimiter;
 
 	private bool hasDoubleJumped = false;
 	//private bool isInAir = false;
@@ -30,7 +31,7 @@ public class PlayerMovementManager : Damageable {
 
 
 	void Update(){
-		
+        dashLimiter += Time.deltaTime;
 		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
 			if (elapsedTime > 0.5) {
@@ -65,7 +66,8 @@ public class PlayerMovementManager : Damageable {
 			}
 		}
 			
-		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
+		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true && dashLimiter > 3) {
+            dashLimiter = 0;
 			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
 		}
