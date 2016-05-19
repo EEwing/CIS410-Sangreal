@@ -55,7 +55,6 @@ public class PlayerManagerJL : Damageable {
             animator.ResetTrigger("stop");
             Debug.Log("Playing Animation");
             animator.Play("Armature|RunCycle");
-            
         }
         else
         {
@@ -118,30 +117,40 @@ public class PlayerManagerJL : Damageable {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
-        
-    //Debug.Log(toTranslate);
-    //if(toTranslate.magnitude > 0.05)
-    /*if (toTranslate != (new Vector3(0, 0, 0)))
-    {
-        if (IsGrounded())
+        Quaternion targetRotation;
+        Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
+        if(Input.GetAxis("Horizontal") > 0)
         {
-            Debug.Log("Setting running animation");
-            animator.SetTrigger("running");
+            transform.localScale = new Vector3(1,1,1);
+            
         }
-    } else {
-        Debug.Log("Setting stop running animation");
-        animator.SetTrigger("stop");
-    }*/
-    //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
+        else if(Input.GetAxis("Horizontal") < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        
+        //Debug.Log(toTranslate);
+        //if(toTranslate.magnitude > 0.05)
+        /*if (toTranslate != (new Vector3(0, 0, 0)))
+        {
+            if (IsGrounded())
+            {
+                Debug.Log("Setting running animation");
+                animator.SetTrigger("running");
+            }
+        } else {
+            Debug.Log("Setting stop running animation");
+            animator.SetTrigger("stop");
+        }*/
+        //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
 
-    //Vector3 force = new Vector3(Input.GetAxis("Horizontal")*speed * airModifier * Time.deltaTime, 0, 0);
-    //if(force.x < 0 && GetComponent<Rigidbody>().velocity.x > 0 || force.x > 0 && GetComponent<Rigidbody>().velocity.x < 0) {
-    //    force.x *= restitutionScale;
-    //}
-    //GetComponent<Rigidbody>().AddForce(force);
+        //Vector3 force = new Vector3(Input.GetAxis("Horizontal")*speed * airModifier * Time.deltaTime, 0, 0);
+        //if(force.x < 0 && GetComponent<Rigidbody>().velocity.x > 0 || force.x > 0 && GetComponent<Rigidbody>().velocity.x < 0) {
+        //    force.x *= restitutionScale;
+        //}
+        //GetComponent<Rigidbody>().AddForce(force);
 
-    GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+        GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 
 			
 
