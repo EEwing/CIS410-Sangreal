@@ -21,6 +21,7 @@ public class PlayerManagerJL : Damageable {
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
 	public int health;
+    bool myanimationisplaying = false;
 
 	private Rigidbody rb;
 
@@ -35,8 +36,34 @@ public class PlayerManagerJL : Damageable {
 
 	void Update(){
 
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            Debug.Log("Set asnimation to playing");
+            myanimationisplaying = true;  //boolean value. declare it to false
 
-        if(Input.GetKeyDown(KeyCode.Z)) {
+        }
+
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            Debug.Log("Set animation to playing = false");
+            myanimationisplaying = false;
+
+        }
+
+        if (myanimationisplaying == true)
+        {
+            animator.ResetTrigger("stop");
+            Debug.Log("Playing Animation");
+            animator.Play("Armature|RunCycle");
+            
+        }
+        else
+        {
+            Debug.Log("Triggering stop");
+            animator.SetTrigger("stop");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z)) {
             Debug.Log("Trying to attack");
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
             foreach(GameObject enemy in enemies) {
@@ -92,21 +119,29 @@ public class PlayerManagerJL : Damageable {
 	// Update is called once per frame
 	void FixedUpdate () {
 		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
-		if (toTranslate != (new Vector3 (0, 0, 0)))
-			if(IsGrounded())
-				animator.SetTrigger ("running");
-		else
-			animator.SetTrigger ("stop");
-
-            //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
         
-            //Vector3 force = new Vector3(Input.GetAxis("Horizontal")*speed * airModifier * Time.deltaTime, 0, 0);
-            //if(force.x < 0 && GetComponent<Rigidbody>().velocity.x > 0 || force.x > 0 && GetComponent<Rigidbody>().velocity.x < 0) {
-            //    force.x *= restitutionScale;
-            //}
-            //GetComponent<Rigidbody>().AddForce(force);
+    //Debug.Log(toTranslate);
+    //if(toTranslate.magnitude > 0.05)
+    /*if (toTranslate != (new Vector3(0, 0, 0)))
+    {
+        if (IsGrounded())
+        {
+            Debug.Log("Setting running animation");
+            animator.SetTrigger("running");
+        }
+    } else {
+        Debug.Log("Setting stop running animation");
+        animator.SetTrigger("stop");
+    }*/
+    //GetComponent<Rigidbody>().transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f));
 
-			GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+    //Vector3 force = new Vector3(Input.GetAxis("Horizontal")*speed * airModifier * Time.deltaTime, 0, 0);
+    //if(force.x < 0 && GetComponent<Rigidbody>().velocity.x > 0 || force.x > 0 && GetComponent<Rigidbody>().velocity.x < 0) {
+    //    force.x *= restitutionScale;
+    //}
+    //GetComponent<Rigidbody>().AddForce(force);
+
+    GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 
 			
 
