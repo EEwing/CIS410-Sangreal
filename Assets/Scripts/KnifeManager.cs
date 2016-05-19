@@ -27,5 +27,9 @@ public class KnifeManager : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other) {
 		Destroy (gameObject);
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.gameObject.GetComponent<Damageable>().Damage(1);
+        }
 	}
 }

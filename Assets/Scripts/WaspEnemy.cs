@@ -32,7 +32,6 @@ public class WaspEnemy : Damageable {
 
 	void OnBecameVisible () {
 
-		SoundManager.instance.RandomizeSfx(moveSound1);
 
 	}
 
