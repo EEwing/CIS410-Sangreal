@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   MaxHealth: 40
-  Health: 0
+  Health: 20
   HealthBar: {fileID: 0}
   player: {fileID: 135878, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   engageDistance: 7

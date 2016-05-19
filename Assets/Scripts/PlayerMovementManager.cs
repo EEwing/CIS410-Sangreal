@@ -14,7 +14,7 @@ public class PlayerMovementManager : Damageable {
 	private float elapsedTime;
 
 	private bool hasDoubleJumped = false;
-	private bool isInAir = false;
+	//private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
 
@@ -45,11 +45,11 @@ public class PlayerMovementManager : Damageable {
 
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;
-			isInAir = false;
+			//isInAir = false;
 			if (Input.GetKeyDown (KeyCode.Space)) {
 				//Debug.Log (rb);
 				rb.AddForce (new Vector3 (0f, jumpForce, 0f));
-				isInAir = true;
+				//isInAir = true;
 				Debug.Log ("Jumping");
 			}
 		} else {
