@@ -21,7 +21,8 @@ public class KnifeManager : MonoBehaviour {
 		if (i > 300) {
 			Destroy (gameObject);
 		}
-		transform.Rotate (new Vector3 (0, 0, -20 * facing));
+		transform.Rotate (new Vector3 (0, 0, -30 * facing));
+        GetComponent<Rigidbody>().AddForce(0.25f * Physics.gravity);
 	}
 
 	void OnCollisionEnter(Collision other) {

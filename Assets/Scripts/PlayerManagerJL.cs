@@ -73,18 +73,18 @@ public class PlayerManagerJL : Damageable {
                     ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
                 }
             }
-        }
+        }/*
 		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
-			if (elapsedTime > 0.1) {
+			if (elapsedTime > 3) {
 				elapsedTime = 0;
-				GameObject knife = (GameObject)Instantiate (knifePrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
+				GameObject knife = (GameObject)Instantiate (knifePrefab, transform.position + new Vector3 (2, 1, 0), transform.rotation);
 				Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
-				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750);
+				knife.GetComponent<Rigidbody> ().AddForce (new Vector3(750,700,0));
 			}
 		}
 
-
+        */
 
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;

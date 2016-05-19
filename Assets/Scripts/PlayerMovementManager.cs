@@ -33,13 +33,13 @@ public class PlayerMovementManager : Damageable {
 		
 		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
-			if (elapsedTime > 0.1) {
+			if (elapsedTime > 0.5) {
 				elapsedTime = 0;
 				GameObject knife = (GameObject)Instantiate (knifePrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
 				knife.GetComponent<KnifeManager>().facing = facing;
 				knife.GetComponent<KnifeManager>().setFacing(facing);
 				Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
-				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 * facing);
+				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 * facing + new Vector3(0,200,0));
 			}
 		}
 
