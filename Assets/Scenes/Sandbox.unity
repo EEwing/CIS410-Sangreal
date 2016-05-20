@@ -1237,7 +1237,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 186286, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
       propertyPath: m_TagString
@@ -1453,7 +1453,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
       propertyPath: m_LocalScale.y
