@@ -8,6 +8,9 @@ public class PlayerMovementManager : Damageable {
 	public float jumpForce = 10f;
 	public float airModifier = 5f;
 
+	public AudioClip jumpSound1;
+	public AudioClip jumpSound2;
+
 	private int facing = 1;
 
 	public GameObject knifePrefab;
@@ -50,6 +53,7 @@ public class PlayerMovementManager : Damageable {
 			if (Input.GetKeyDown (KeyCode.Space)) {
 				//Debug.Log (rb);
 				rb.AddForce (new Vector3 (0f, jumpForce, 0f));
+				SoundManager.instance.RandomizeSfx (jumpSound1);
 				//isInAir = true;
 				Debug.Log ("Jumping");
 			}
@@ -60,6 +64,7 @@ public class PlayerMovementManager : Damageable {
 					rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
 
 					rb.AddForce (new Vector3 (0f, jumpForce, 0f));
+					SoundManager.instance.RandomizeSfx (jumpSound2);
 					hasDoubleJumped = true;
 					Debug.Log ("Double jumping");
 				}
