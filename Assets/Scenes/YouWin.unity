@@ -274,7 +274,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c0f7d412853fb4141854a3e93f1e65e1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: afb72c13f40d95141a09e21cb96bf1a0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -470,7 +470,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85213d69414caba4aa5274c315ddc29d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b0de13a62157124ca8cb4310d2fb160, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb9fb34511cbc554f8a55f7b6a6d7eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oldSprite: {fileID: 21300000, guid: 85213d69414caba4aa5274c315ddc29d, type: 3}
-  newSprite: {fileID: 21300000, guid: 21742ae697a87f94f8aeb98e5d9c051c, type: 3}
+  oldSprite: {fileID: 21300000, guid: 1b0de13a62157124ca8cb4310d2fb160, type: 3}
+  newSprite: {fileID: 21300000, guid: 02929ae619cd6d64990cb53824303712, type: 3}
 --- !u!61 &1710626894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -510,9 +510,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.15037394, y: -0.5075116}
+  m_Offset: {x: 0.06, y: 1.9}
   serializedVersion: 2
-  m_Size: {x: 4.2107477, y: 0.7251867}
+  m_Size: {x: 7, y: 1}
 --- !u!114 &1710626895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,4 +526,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStart: 1
   isQuit: 0
-  nextLevel: Level 1
+  nextLevel: MainMenu
