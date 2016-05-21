@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 	public bool isStart;
 	public bool isQuit;
+	public string nextLevel;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,7 @@ public class MainMenu : MonoBehaviour {
 
 	void OnMouseUp(){
 		if (isStart) {
-			SceneManager.LoadScene ("Level 1");
+			SceneManager.LoadScene (nextLevel);
 		}
 		if (isQuit) {
 			Application.Quit ();
