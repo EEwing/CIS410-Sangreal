@@ -913,6 +913,10 @@ Prefab:
       propertyPath: m_Name
       value: Archer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 932520045}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -2930,6 +2934,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 932520045}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -3631,6 +3639,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 932520045}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0

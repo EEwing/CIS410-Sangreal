@@ -128,6 +128,10 @@ Prefab:
       propertyPath: m_Name
       value: Archer (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 473725289}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -247,8 +251,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 478694, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 473725289}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -370,7 +378,7 @@ Transform:
   - {fileID: 48064034}
   - {fileID: 849334422}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1001 &384163076
 Prefab:
   m_ObjectHideFlags: 0
@@ -408,7 +416,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417384, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 169762, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: m_Name
@@ -539,8 +547,8 @@ MonoBehaviour:
   HealthBar: {fileID: 0}
   jumpForce: 1400
   airModifier: 1
-  jumpSound1: {fileID: 0}
-  jumpSound2: {fileID: 0}
+  jumpSound1: {fileID: 8300000, guid: 139b3fb81ddb820468295c7b1f511cc5, type: 3}
+  jumpSound2: {fileID: 8300000, guid: 445aae58b5a71cf4ca89cea710b4525c, type: 3}
   knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
   hasDoubleJumpPowerup: 1
   hasDashPowerup: 1
@@ -640,7 +648,7 @@ Transform:
   m_Children:
   - {fileID: 1977098698}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1001 &567124503
 Prefab:
   m_ObjectHideFlags: 0
@@ -684,6 +692,10 @@ Prefab:
       propertyPath: m_Name
       value: Archer (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 473725289}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -728,7 +740,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417384, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11412990, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: player
@@ -1435,7 +1447,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1001 &1360851022
 Prefab:
   m_ObjectHideFlags: 0
@@ -1763,7 +1775,7 @@ Transform:
   - {fileID: 644500624}
   - {fileID: 384163077}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1 &1666685273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2119,10 @@ Prefab:
       propertyPath: m_Name
       value: Archer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 473725289}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -2242,57 +2258,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1977098697}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1996047014
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 26.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 402148, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3.9414315
-      objectReference: {fileID: 0}
-    - target: {fileID: 186286, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_Name
-      value: Sangreal
-      objectReference: {fileID: 0}
-    - target: {fileID: 186286, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-      propertyPath: m_TagString
-      value: Finish
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 43e9a60d8014f114a9481d22ef717cf1, type: 2}
-  m_IsPrefabParent: 0
