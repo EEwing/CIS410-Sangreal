@@ -65,7 +65,11 @@ public class PlayerManager : Damageable {
 		else if (other.gameObject.tag == "Level5") {
 			SceneManager.LoadScene ("Final Level");
 		}
+		else if (other.gameObject.tag == "Finish") {
+			SceneManager.LoadScene ("MainMenu");
+		}
 	}
+
 
 	void OnCollisionEnter(Collision other) {
 		//Debug.Log("touched with "+other.gameObject.name);

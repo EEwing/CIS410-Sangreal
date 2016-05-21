@@ -270,8 +270,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  MaxHealth: 15
-  Health: 0
+  MaxHealth: 1
+  Health: 1
   HealthBar: {fileID: 0}
   player: {fileID: 0}
   engageDistance: 20
