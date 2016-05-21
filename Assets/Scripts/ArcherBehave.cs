@@ -7,7 +7,7 @@ public class ArcherBehave : Damageable {
 
 	public GameObject player; 
 	public int engageDistance;
-	public GameObject knifePrefab;
+	public GameObject arrowPrefab;
 
 	private float elapsedTime;
 	private int facing = 1;
@@ -24,13 +24,13 @@ public class ArcherBehave : Damageable {
 		if (Vector3.Distance (player.transform.position, transform.position) < engageDistance) {
 			transform.LookAt (player.transform.position); 
 
-			if (elapsedTime > 0.5) {
+			if (elapsedTime > 2) {
 				elapsedTime = 0;
-				GameObject knife = (GameObject)Instantiate (knifePrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
-				knife.GetComponent<KnifeManager>().facing = facing;
-				knife.GetComponent<KnifeManager>().setFacing(facing);
-				Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
-				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 * facing);
+				GameObject arrow = (GameObject)Instantiate (arrowPrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
+				arrow.GetComponent<KnifeManager>().facing = facing;
+				arrow.GetComponent<KnifeManager>().setFacing(facing);
+				Physics.IgnoreCollision (arrow.GetComponent<Collider> (), GetComponent<Collider> ());
+				arrow.GetComponent<Rigidbody> ().AddForce (Vector3.right * 600 * facing);
 			}
 			//transform.position += transform.forward * speed * Time.deltaTime;
 		}
@@ -41,5 +41,16 @@ public class ArcherBehave : Damageable {
 		if (other.gameObject.tag == "Weapon") {
             Damage(5);
 		} 
+	}
+
+	void FixedUpdate () {
+		if (Input.GetAxis ("Horizontal") > 0) {
+			facing = -1;
+		} else if (Input.GetAxis ("Horizontal") < 0) {
+			facing = 1;
+		}
+		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * Time.deltaTime, 0f, 0f);
+		//GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+
 	}
 }
