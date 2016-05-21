@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class ArcherBehave : Damageable {
 
 	public GameObject player; 
-	public int engageDistance;
+	public int engageDistance = 25;
 	public GameObject arrowPrefab;
+	public int archerSpeed = 2;
+	public int arrowSpeed = 800;
 
 	private float elapsedTime;
-	private int facing = 1;
+	//private int facing = 1;
 
 	// Use this for initialization
 	//void Start () {
@@ -24,13 +26,16 @@ public class ArcherBehave : Damageable {
 		if (Vector3.Distance (player.transform.position, transform.position) < engageDistance) {
 			transform.LookAt (player.transform.position); 
 
-			if (elapsedTime > 2) {
+			if (elapsedTime > archerSpeed) {
 				elapsedTime = 0;
 				GameObject arrow = (GameObject)Instantiate (arrowPrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
-				arrow.GetComponent<KnifeManager>().facing = facing;
-				arrow.GetComponent<KnifeManager>().setFacing(facing);
+				//arrow.GetComponent<KnifeManager>().facing = facing;
+				//arrow.GetComponent<KnifeManager>().setFacing(facing);
 				Physics.IgnoreCollision (arrow.GetComponent<Collider> (), GetComponent<Collider> ());
-				arrow.GetComponent<Rigidbody> ().AddForce (Vector3.right * 600 * facing);
+				arrow.transform.LookAt (player.transform.position); 
+				//float target = Quaternion.LookAt (player.transform.position - transform.position);
+				//arrow.GetComponent<Rigidbody> ().AddForce (Vector3.right * 600 * facing);
+				arrow.GetComponent<Rigidbody> ().AddForce ((transform.forward) * arrowSpeed);
 			}
 			//transform.position += transform.forward * speed * Time.deltaTime;
 		}
@@ -42,7 +47,7 @@ public class ArcherBehave : Damageable {
             Damage(5);
 		} 
 	}
-
+	/*
 	void FixedUpdate () {
 		if (Input.GetAxis ("Horizontal") > 0) {
 			facing = -1;
@@ -53,4 +58,5 @@ public class ArcherBehave : Damageable {
 		//GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 
 	}
+*/
 }
