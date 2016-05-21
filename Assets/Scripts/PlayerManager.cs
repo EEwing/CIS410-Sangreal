@@ -66,7 +66,7 @@ public class PlayerManager : Damageable {
 			SceneManager.LoadScene ("Final Level");
 		}
 		else if (other.gameObject.tag == "Finish") {
-			SceneManager.LoadScene ("MainMenu");
+			SceneManager.LoadScene ("YouWin");
 		}
 	}
 
