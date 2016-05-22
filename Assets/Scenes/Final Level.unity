@@ -128,7 +128,7 @@ Prefab:
       propertyPath: m_Name
       value: Archer (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
       propertyPath: player
       value: 
       objectReference: {fileID: 473725289}
@@ -251,9 +251,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 478694, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
       propertyPath: player
       value: 
       objectReference: {fileID: 473725289}
@@ -416,7 +416,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417384, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 169762, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: m_Name
@@ -696,6 +696,10 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 473725289}
+    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 473725289}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
@@ -740,7 +744,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417384, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 11412990, guid: 30d13568cbf0706418197157a3ce1dc4, type: 2}
       propertyPath: player
@@ -1000,14 +1004,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 181306, guid: fe0d2de1c4d32ed48b04fc6cc153c377, type: 2}
-      propertyPath: m_Name
-      value: Grounded Enemy (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 11494692, guid: fe0d2de1c4d32ed48b04fc6cc153c377, type: 2}
       propertyPath: player
       value: 
       objectReference: {fileID: 473725289}
+    - target: {fileID: 181306, guid: fe0d2de1c4d32ed48b04fc6cc153c377, type: 2}
+      propertyPath: m_Name
+      value: Grounded Enemy (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe0d2de1c4d32ed48b04fc6cc153c377, type: 2}
   m_IsPrefabParent: 0
@@ -1733,7 +1737,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 470478, guid: 8e3fce0e1b43c1542bffece32ea3455f, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8e3fce0e1b43c1542bffece32ea3455f, type: 2}
@@ -2120,6 +2124,10 @@ Prefab:
       value: Archer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 473725289}
+    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
       propertyPath: player
       value: 
       objectReference: {fileID: 473725289}

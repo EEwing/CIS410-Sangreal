@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3368958}
   - 65: {fileID: 6581126}
   - 23: {fileID: 2304466}
+  - 114: {fileID: 11436036}
   m_Layer: 0
   m_Name: Archer
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176880}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.48, y: 4.58, z: 0}
+  m_LocalPosition: {x: -33.26894, y: 28.940144, z: 11.911995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,6 +76,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11436036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a919bfdaba9f92d49b48599bac6d069a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  MaxHealth: 2
+  Health: 2
+  HealthBar: {fileID: 0}
+  player: {fileID: 0}
+  engageDistance: 25
+  arrowPrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
+  archerSpeed: 2
+  arrowSpeed: 800
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
