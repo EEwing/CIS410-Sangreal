@@ -15,9 +15,9 @@ public class ArcherBehave : Damageable {
 	//private int facing = 1;
 
 	// Use this for initialization
-	//void Start () {
-	//
-	//}
+	void Start () {
+		player = GameObject.Find("Player");
+	}
 	
 	// Update is called once per frame
 	void Update () {

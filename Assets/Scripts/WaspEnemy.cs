@@ -3,14 +3,14 @@ using System.Collections;
 
 public class WaspEnemy : Damageable {
 
-	public GameObject player; 
+	public GameObject player;
 	public int engageDistance;
 	public AudioClip moveSound1;
 	public AudioSource efxSource;
 	private bool buzzing = false;
 	// Use this for initialization
 	void Start () {
-	
+		player = GameObject.Find("Player");
 	}
 
 	
