@@ -9,7 +9,7 @@ public class ArcherBehave : Damageable {
 	public int engageDistance = 25;
 	public GameObject arrowPrefab;
 	public int archerSpeed = 2;
-	public int arrowSpeed = 800;
+	public int arrowSpeed = 750;
 
 	private float elapsedTime;
 	//private int facing = 1;
@@ -33,9 +33,11 @@ public class ArcherBehave : Damageable {
 				//arrow.GetComponent<KnifeManager>().setFacing(facing);
 				Physics.IgnoreCollision (arrow.GetComponent<Collider> (), GetComponent<Collider> ());
 				arrow.transform.LookAt (player.transform.position); 
+				arrow.transform.rotation *= (Quaternion.Euler (15, 180, 0));
 				//float target = Quaternion.LookAt (player.transform.position - transform.position);
 				//arrow.GetComponent<Rigidbody> ().AddForce (Vector3.right * 600 * facing);
-				arrow.GetComponent<Rigidbody> ().AddForce ((transform.forward) * arrowSpeed);
+				//arrow.GetComponent<Rigidbody> ().AddForce ((-arrow.transform.forward) * arrowSpeed);
+				FireArrow (arrow);
 			}
 			//transform.position += transform.forward * speed * Time.deltaTime;
 		}
@@ -46,6 +48,10 @@ public class ArcherBehave : Damageable {
 		if (other.gameObject.tag == "Weapon") {
             Damage(5);
 		} 
+	}
+
+	void FireArrow(GameObject arrow) {
+		arrow.GetComponent<Rigidbody> ().AddForce ((-arrow.transform.forward) * arrowSpeed);
 	}
 	/*
 	void FixedUpdate () {
