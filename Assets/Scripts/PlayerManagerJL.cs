@@ -11,13 +11,14 @@ public class PlayerManagerJL : Damageable {
     public float AttackLength = 10f;
     public float AttackStrength = 10f;
 
+
 	public GameObject knifePrefab;
 	public GameObject avatar;
 	private float elapsedTime;
 	public Animator animator;
 
     private bool hasDoubleJumped = false;
-	private bool isInAir = false;
+	//private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
 	public int health;
@@ -88,11 +89,11 @@ public class PlayerManagerJL : Damageable {
 
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;
-			isInAir = false;
+			//isInAir = false;
 			animator.SetTrigger ("land");
 			if (Input.GetKeyDown (KeyCode.Space)) {
 				GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
-				isInAir = true;
+			//	isInAir = true;
 				Debug.Log ("Jumping");
 				animator.SetTrigger ("jump");
 			}

@@ -8,6 +8,8 @@ public class PlayerManager : Damageable {
     public float restitutionScale = 1.1f;
     public float AttackLength = 10f;
     public float AttackStrength = 10f;
+	public GameObject gameover;
+
 
 	public int health;
 
@@ -15,7 +17,8 @@ public class PlayerManager : Damageable {
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
+		//rb = GetComponent<Rigidbody> ();
+		gameover = GameObject.FindWithTag("Respawn");
     }
 
 	void Update(){
@@ -41,10 +44,10 @@ public class PlayerManager : Damageable {
 	void OnTriggerEnter(Collider other) {
 		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Lose") {
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+			SceneManager.LoadScene ("YouLose");
 		} else if (other.gameObject.tag == "Enemy") {
 			//I take damage here
-			Damage (7);
+			Damage (20);
 		} else if (other.gameObject.tag == "DoubleJump") {
 			GetComponent<PlayerMovementManager>().hasDoubleJumpPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
@@ -54,18 +57,23 @@ public class PlayerManager : Damageable {
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "Level2") {
+			Destroy (gameover);
 			SceneManager.LoadScene ("Level 2");
 		}
 		else if (other.gameObject.tag == "Level3") {
+			Destroy (gameover);
 			SceneManager.LoadScene ("Level 3");
 		}
 		else if (other.gameObject.tag == "Level4") {
+			Destroy (gameover);
 			SceneManager.LoadScene ("Level 4");
 		}
 		else if (other.gameObject.tag == "Level5") {
+			Destroy (gameover);
 			SceneManager.LoadScene ("Final Level");
 		}
 		else if (other.gameObject.tag == "Finish") {
+			Destroy (gameover);
 			SceneManager.LoadScene ("YouWin");
 		}
 	}
@@ -82,6 +90,6 @@ public class PlayerManager : Damageable {
 	}
 
     protected override void OnDeath() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		SceneManager.LoadScene ("YouLose");
     }
 }

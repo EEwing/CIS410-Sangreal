@@ -527,3 +527,4 @@ MonoBehaviour:
   isStart: 1
   isQuit: 0
   nextLevel: MainMenu
+  gameover: {fileID: 0}
