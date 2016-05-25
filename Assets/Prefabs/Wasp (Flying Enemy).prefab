@@ -30,7 +30,7 @@ GameObject:
   - 65: {fileID: 6588606}
   - 54: {fileID: 5469436}
   - 82: {fileID: 8259720}
-  - 114: {fileID: 11452472}
+  - 114: {fileID: 11463842}
   m_Layer: 0
   m_Name: Wasp (Flying Enemy)
   m_TagString: Enemy
@@ -258,7 +258,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &11452472
+--- !u!114 &11463842
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -266,11 +266,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 169762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c464e3869fd3c0c49855eabdd4a27a2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2660d4c7983dcd14db54259f15891477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  MaxHealth: 1
+  MaxHealth: 5
   Health: 1
   HealthBar: {fileID: 0}
   player: {fileID: 0}
