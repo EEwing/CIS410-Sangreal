@@ -2792,6 +2792,10 @@ Prefab:
       propertyPath: HealthBar
       value: 
       objectReference: {fileID: 1726586060}
+    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: gameover
+      value: 
+      objectReference: {fileID: 1623927643}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0
@@ -6059,6 +6063,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1623927643 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 153910, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
+  m_PrefabInternal: {fileID: 1623927642}
 --- !u!1001 &1630210526
 Prefab:
   m_ObjectHideFlags: 0

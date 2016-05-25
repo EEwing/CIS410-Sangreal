@@ -1415,7 +1415,7 @@ Transform:
   - {fileID: 693017635}
   - {fileID: 1491985340}
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 56
 --- !u!1001 &45987186
 Prefab:
   m_ObjectHideFlags: 0
@@ -7519,6 +7519,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &243478146 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 153910, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
+  m_PrefabInternal: {fileID: 243478145}
 --- !u!4 &245222909 stripped
 Transform:
   m_PrefabParentObject: {fileID: 437222, guid: 1d415aa389b5d2441b6a9c6e09c4c622, type: 2}
@@ -7949,7 +7953,7 @@ Transform:
   - {fileID: 79923986}
   - {fileID: 616582265}
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 71
 --- !u!4 &255020080 stripped
 Transform:
   m_PrefabParentObject: {fileID: 437222, guid: 1d415aa389b5d2441b6a9c6e09c4c622, type: 2}
@@ -13902,7 +13906,7 @@ Transform:
   - {fileID: 873431385}
   - {fileID: 1103143218}
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 58
 --- !u!1001 &439928482
 Prefab:
   m_ObjectHideFlags: 0
@@ -38939,6 +38943,10 @@ Prefab:
       propertyPath: hasDoubleJumpPowerup
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: gameover
+      value: 
+      objectReference: {fileID: 243478146}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0

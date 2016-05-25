@@ -7536,6 +7536,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &600949068 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 153910, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
+  m_PrefabInternal: {fileID: 600949067}
 --- !u!4 &602545542 stripped
 Transform:
   m_PrefabParentObject: {fileID: 460454, guid: a216c9ee0fe086049bd605a4c61345a4, type: 2}
@@ -16690,6 +16694,10 @@ Prefab:
       propertyPath: hasDashPowerup
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: gameover
+      value: 
+      objectReference: {fileID: 600949068}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0

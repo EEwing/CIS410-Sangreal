@@ -1706,6 +1706,7 @@ MonoBehaviour:
   restitutionScale: 1.1
   AttackLength: 2.5
   AttackStrength: 400
+  gameover: {fileID: 0}
   health: 2
 --- !u!54 &300250559
 Rigidbody:
@@ -8049,6 +8050,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: gameover
+      value: 
+      objectReference: {fileID: 1715981138}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0
@@ -10433,6 +10438,10 @@ MeshFilter:
 Transform:
   m_PrefabParentObject: {fileID: 489060, guid: 38da12c7e81f0024a879f5dec172d7d4, type: 2}
   m_PrefabInternal: {fileID: 127299897}
+--- !u!1 &1715981138 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 153910, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
+  m_PrefabInternal: {fileID: 1638414926}
 --- !u!1001 &1727198640
 Prefab:
   m_ObjectHideFlags: 0
