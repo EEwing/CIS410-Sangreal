@@ -12,7 +12,7 @@ GameObject:
   - 23: {fileID: 2397282}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ GameObject:
   - 65: {fileID: 6588606}
   - 54: {fileID: 5469436}
   - 82: {fileID: 8259720}
-  - 114: {fileID: 11412990}
+  - 114: {fileID: 11452472}
   m_Layer: 0
   m_Name: Wasp (Flying Enemy)
   m_TagString: Enemy
@@ -179,7 +179,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169762}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.1, z: 2.1}
@@ -258,7 +258,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &11412990
+--- !u!114 &11452472
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -266,15 +266,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 169762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2660d4c7983dcd14db54259f15891477, type: 3}
+  m_Script: {fileID: 11500000, guid: c464e3869fd3c0c49855eabdd4a27a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
   MaxHealth: 1
   Health: 1
   HealthBar: {fileID: 0}
   player: {fileID: 0}
-  engageDistance: 20
+  engageDistance: 15
+  patrolDistance: 2
   moveSound1: {fileID: 8300000, guid: 2eeeb469bead54e49b06a37f390e22e9, type: 3}
   efxSource: {fileID: 8259720}
 --- !u!1001 &100100000
