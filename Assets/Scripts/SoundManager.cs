@@ -14,12 +14,13 @@ public class SoundManager : MonoBehaviour
 	// Use this for initialization
 	void Awake ()
 	{
-		if (instance == null)
+		if (instance == null) {
 			instance = this;
-		else if (instance != this)
+		} else if (instance != this) {
 			Destroy (gameObject);
+		}
 
-		DontDestroyOnLoad (gameObject);
+		//DontDestroyOnLoad (gameObject);
 	}
 
 	public void PlaySingle (AudioClip clip)
