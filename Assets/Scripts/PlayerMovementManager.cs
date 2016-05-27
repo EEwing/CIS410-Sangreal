@@ -10,6 +10,7 @@ public class PlayerMovementManager : Damageable {
 
 	public AudioClip jumpSound1;
 	public AudioClip jumpSound2;
+	public AudioClip DashingSound;
 
 	private int facing = 1;
 
@@ -75,6 +76,7 @@ public class PlayerMovementManager : Damageable {
             dashLimiter = 0;
 			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
+			SoundManager.instance.RandomizeSfx (DashingSound);
 		}
 	}
 

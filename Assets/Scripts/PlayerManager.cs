@@ -8,6 +8,8 @@ public class PlayerManager : Damageable {
     public float restitutionScale = 1.1f;
     public float AttackLength = 10f;
     public float AttackStrength = 10f;
+	public AudioClip DoubleJumpSound;
+	public AudioClip DashSound;
 	public GameObject gameover;
 
 
@@ -51,10 +53,12 @@ public class PlayerManager : Damageable {
 		} else if (other.gameObject.tag == "DoubleJump") {
 			GetComponent<PlayerMovementManager>().hasDoubleJumpPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
+			SoundManager.instance.RandomizeSfx (DoubleJumpSound);
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "Dash") {
 			GetComponent<PlayerMovementManager>().hasDashPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
+			SoundManager.instance.RandomizeSfx (DashSound);
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "Level2") {
 			Destroy (gameover);
