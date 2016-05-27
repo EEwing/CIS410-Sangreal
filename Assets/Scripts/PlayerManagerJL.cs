@@ -36,7 +36,7 @@ public class PlayerManagerJL : Damageable {
     }
 
 	void Update(){
-
+		//transform.localScale = transform.localScale;
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             Debug.Log("Set asnimation to playing");
@@ -118,6 +118,8 @@ public class PlayerManagerJL : Damageable {
 
 	// Update is called once per frame
 	void FixedUpdate () {
+		Transform parent = transform.parent;
+		transform.parent = null;
         Quaternion targetRotation;
         Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
         if(Input.GetAxis("Horizontal") > 0)
@@ -152,7 +154,7 @@ public class PlayerManagerJL : Damageable {
         //GetComponent<Rigidbody>().AddForce(force);
 
         GetComponent<Rigidbody> ().transform.Translate (toTranslate);
-
+		transform.parent = parent;
 			
 
 	}
