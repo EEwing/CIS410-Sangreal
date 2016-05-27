@@ -96,6 +96,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 122218, guid: c724d04a10e768348807ba9b07509ecf, type: 2}
   archerSpeed: 2
   arrowSpeed: 800
+  arrowSound1: {fileID: 8300000, guid: ad7d8632d2755c840ab687bd04fe274c, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
