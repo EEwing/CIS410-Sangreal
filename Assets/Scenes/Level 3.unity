@@ -7953,7 +7953,7 @@ Transform:
   - {fileID: 79923986}
   - {fileID: 616582265}
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 72
 --- !u!4 &255020080 stripped
 Transform:
   m_PrefabParentObject: {fileID: 437222, guid: 1d415aa389b5d2441b6a9c6e09c4c622, type: 2}
@@ -38947,6 +38947,10 @@ Prefab:
       propertyPath: gameover
       value: 
       objectReference: {fileID: 243478146}
+    - target: {fileID: 11405218, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 1924281389}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0
@@ -56288,6 +56292,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87367725d0ef9ed4f9aaaddbc0a021f1, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1924281389 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11491946, guid: 87367725d0ef9ed4f9aaaddbc0a021f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1924281388}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1925984936
 Prefab:
   m_ObjectHideFlags: 0

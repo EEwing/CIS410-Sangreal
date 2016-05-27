@@ -1771,7 +1771,7 @@ MonoBehaviour:
   speed: 10
   MaxHealth: 100
   Health: 0
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 520250093}
   restitutionScale: 1.1
   AttackLength: 2.5
   AttackStrength: 400
@@ -2090,6 +2090,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87367725d0ef9ed4f9aaaddbc0a021f1, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &520250093 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11491946, guid: 87367725d0ef9ed4f9aaaddbc0a021f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 520250092}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &567124503
 Prefab:
   m_ObjectHideFlags: 0
@@ -6650,7 +6656,7 @@ Transform:
   - {fileID: 334519410}
   - {fileID: 235518649}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
 --- !u!1 &1733544605
 GameObject:
   m_ObjectHideFlags: 0

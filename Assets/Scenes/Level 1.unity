@@ -1702,7 +1702,7 @@ MonoBehaviour:
   speed: 10
   MaxHealth: 100
   Health: 0
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 860372660}
   restitutionScale: 1.1
   AttackLength: 2.5
   AttackStrength: 400
@@ -5046,6 +5046,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11457290, guid: 8cc64951ef992a44db080ee93109a1d5, type: 2}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 860372660}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8cc64951ef992a44db080ee93109a1d5, type: 2}
   m_IsPrefabParent: 0
@@ -5278,6 +5282,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87367725d0ef9ed4f9aaaddbc0a021f1, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &860372660 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11491946, guid: 87367725d0ef9ed4f9aaaddbc0a021f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 860372659}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &866820008
 GameObject:
   m_ObjectHideFlags: 0
