@@ -10,6 +10,8 @@ public class ArcherBehave : Damageable {
 	public GameObject arrowPrefab;
 	public int archerSpeed = 2;
 	public int arrowSpeed = 750;
+	public AudioClip arrowSound1;
+
 
 	private float elapsedTime;
 	//private int facing = 1;
@@ -29,6 +31,7 @@ public class ArcherBehave : Damageable {
 			if (elapsedTime > archerSpeed) {
 				elapsedTime = 0;
 				GameObject arrow = (GameObject)Instantiate (arrowPrefab, transform.position + new Vector3 (1, 1, 0), transform.rotation);
+				SoundManager.instance.RandomizeSfx (arrowSound1);
 				//arrow.GetComponent<KnifeManager>().facing = facing;
 				//arrow.GetComponent<KnifeManager>().setFacing(facing);
 				Physics.IgnoreCollision (arrow.GetComponent<Collider> (), GetComponent<Collider> ());
@@ -51,6 +54,7 @@ public class ArcherBehave : Damageable {
 	}
 
 	void FireArrow(GameObject arrow) {
+		
 		arrow.GetComponent<Rigidbody> ().AddForce ((-arrow.transform.forward) * arrowSpeed);
 	}
 	/*
