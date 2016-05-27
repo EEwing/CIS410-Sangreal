@@ -274,7 +274,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c0f7d412853fb4141854a3e93f1e65e1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4288e855a4cceb344bd66450c2817887, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -527,3 +527,4 @@ MonoBehaviour:
   isStart: 1
   isQuit: 0
   nextLevel: Level 1
+  gameover: {fileID: 0}

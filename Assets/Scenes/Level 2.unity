@@ -5311,7 +5311,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7a14730ffde49144488adf92eaff1f30, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d12d345cf7578d643b1cc4aac66d1d57, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -16708,6 +16708,18 @@ Prefab:
       propertyPath: HealthBar
       value: 
       objectReference: {fileID: 81720328}
+    - target: {fileID: 2009580, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.36197016
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009580, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.75735295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009580, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.75735295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d8c4e2a101976b47b6b2fc1a4f5ac27, type: 2}
   m_IsPrefabParent: 0
