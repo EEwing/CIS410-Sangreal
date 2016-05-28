@@ -1692,6 +1692,7 @@ MonoBehaviour:
   airModifier: 5
   jumpSound1: {fileID: 8300000, guid: 139b3fb81ddb820468295c7b1f511cc5, type: 3}
   jumpSound2: {fileID: 8300000, guid: 445aae58b5a71cf4ca89cea710b4525c, type: 3}
+  DashingSound: {fileID: 0}
   knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
   hasDoubleJumpPowerup: 1
   hasDashPowerup: 0
@@ -1714,6 +1715,8 @@ MonoBehaviour:
   restitutionScale: 1.1
   AttackLength: 2.5
   AttackStrength: 400
+  DoubleJumpSound: {fileID: 0}
+  DashSound: {fileID: 0}
   gameover: {fileID: 0}
   health: 2
 --- !u!54 &300250559
@@ -3450,22 +3453,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
-      propertyPath: player
-      value: 
+    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
+      propertyPath: arrowSpeed
+      value: 1000
       objectReference: {fileID: 0}
-    - target: {fileID: 11469632, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
-      propertyPath: arrowPrefab
-      value: 
-      objectReference: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
-    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 198560019}
-    - target: {fileID: 11436036, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
-      propertyPath: arrowPrefab
-      value: 
-      objectReference: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1234b780c4d81b409b93f3a99e0f874, type: 2}
   m_IsPrefabParent: 0
