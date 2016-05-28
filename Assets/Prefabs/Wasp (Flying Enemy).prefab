@@ -60,7 +60,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169762}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 61.81, y: 6.3, z: 0}
+  m_LocalPosition: {x: 7.5645814, y: 2.1827507, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 499338}
@@ -179,7 +179,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169762}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.1, z: 2.1}
@@ -271,12 +271,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   MaxHealth: 5
-  Health: 1
   HealthBar: {fileID: 0}
   player: {fileID: 0}
   engageDistance: 15
+  strength: 1
   patrolDistance: 2
-  moveSound1: {fileID: 8300000, guid: 2eeeb469bead54e49b06a37f390e22e9, type: 3}
+  moveSound1: {fileID: 8300000, guid: a25f524b96e5dd14b821e5b09402c027, type: 3}
   efxSource: {fileID: 8259720}
 --- !u!1001 &100100000
 Prefab:
