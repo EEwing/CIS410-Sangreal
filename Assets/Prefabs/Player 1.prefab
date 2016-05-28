@@ -303,7 +303,7 @@ GameObject:
   - 65: {fileID: 6577900}
   m_Layer: 0
   m_Name: Smallsword
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1260,7 +1260,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 102488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.77, y: 0.61, z: 0}
+  m_LocalPosition: {x: -1.046031, y: 0.9772637, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 459362}
@@ -1851,7 +1851,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 20.3
+  field of view: 48
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2375,7 +2375,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121538}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0005020867, y: 0.0063, z: 0.0024096002}
@@ -2432,7 +2432,7 @@ MonoBehaviour:
   jumpSound2: {fileID: 8300000, guid: 445aae58b5a71cf4ca89cea710b4525c, type: 3}
   DashingSound: {fileID: 8300000, guid: 64c2b764f47cde946ae3c875075e5b69, type: 3}
   knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
-  hasDoubleJumpPowerup: 1
+  hasDoubleJumpPowerup: 0
   hasDashPowerup: 0
 --- !u!114 &11485188
 MonoBehaviour:
@@ -2479,7 +2479,7 @@ MonoBehaviour:
   knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
   avatar: {fileID: 100100}
   animator: {fileID: 9539870}
-  hasDoubleJumpPowerup: 1
+  hasDoubleJumpPowerup: 0
   hasDashPowerup: 0
   health: 0
 --- !u!124 &12405686
