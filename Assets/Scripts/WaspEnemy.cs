@@ -6,6 +6,7 @@ public class WaspEnemy : Damageable {
 
 	public GameObject player;
 	public int engageDistance;
+	public int strength = 1;
 
 	public float patrolDistance;
 	public AudioClip moveSound1;
@@ -19,6 +20,7 @@ public class WaspEnemy : Damageable {
 	private bool patrol;
 	private float leftX;
 	private float rightX;
+	private bool playerIsAttacked = false;
 
 
 
@@ -40,10 +42,12 @@ public class WaspEnemy : Damageable {
 		//transform.LookAt (player.transform.position); 
 		if (Vector3.Distance (player.transform.position, transform.position) < engageDistance) {
 			patrol = false;
-			transform.LookAt (player.transform.position); 
+			 
 			//transform.position = player.transform.position;
-			transform.position += transform.forward * speed * Time.deltaTime;
-
+			if (playerIsAttacked == false) {
+				transform.LookAt (player.transform.position);
+				transform.position += transform.forward * speed * Time.deltaTime;
+			}
 			if (buzzing == false) {
 				efxSource.clip = moveSound1;
 				efxSource.Play ();
@@ -65,7 +69,6 @@ public class WaspEnemy : Damageable {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Weapon") {
 			Damage(5);
 		} 
@@ -93,16 +96,30 @@ public class WaspEnemy : Damageable {
 
 		}
 	}
+
 	void OnCollisionEnter(Collision playerObject)
 	{
-		//Debug.Log ("enter moving platform");
-		if(!playerObject.gameObject.name.Contains("Player"))
+		if(playerObject.gameObject.gameObject.tag != "Player")
+			
 		{
-			//playerObject.transform.parent = gameObject.transform;
 			right = !right;
-
+			//Debug.Log("bumped into something, turning around");
 			transform.Rotate (new Vector3 (0, 180, 0));
 		}
-	}
+		else
+		{
+			playerIsAttacked = true;
+			playerObject.gameObject.GetComponent<Damageable>().Damage(strength);
 
+			//Debug.Log("entering the player");
+		}
+	}
+	void OnCollisionExit(Collision playerObject)
+	{
+		if(playerObject.gameObject.gameObject.tag == "Player")
+		{
+			playerIsAttacked = false;
+			//Debug.Log("exiting the player");
+		}
+	}
 }
