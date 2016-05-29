@@ -4672,6 +4672,14 @@ Prefab:
       propertyPath: hasDoubleJumpPowerup
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11448848, guid: f462c324621a169499321c76bd173e5d, type: 2}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11448848, guid: f462c324621a169499321c76bd173e5d, type: 2}
+      propertyPath: hasDashPowerup
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f462c324621a169499321c76bd173e5d, type: 2}
   m_IsPrefabParent: 0

@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class PlayerManagerJL : Damageable {
 	
-    public float jumpForce = 10f;
-    public float airModifier = 5f;
-    public float restitutionScale = 1.1f;
-    public float AttackLength = 10f;
-    public float AttackStrength = 10f;
+    //public float jumpForce = 10f;
+   // public float airModifier = 5f;
+    //public float restitutionScale = 1.1f;
+   // public float AttackLength = 10f;
+   // public float AttackStrength = 10f;
 
 
 	public GameObject knifePrefab;
@@ -21,14 +21,14 @@ public class PlayerManagerJL : Damageable {
 	//private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
 	public bool hasDashPowerup = false;
-	public int health;
+	//public int health;
     bool myanimationisplaying = false;
 
-	private Rigidbody rb;
+	//private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
+		//rb = GetComponent<Rigidbody> ();
     }
     
     bool IsGrounded() {
@@ -54,27 +54,27 @@ public class PlayerManagerJL : Damageable {
         if (myanimationisplaying == true)
         {
             animator.ResetTrigger("stop");
-            Debug.Log("Playing Animation");
+          //  Debug.Log("Playing Animation");
             animator.Play("Armature|RunCycle");
         }
         else
         {
-            Debug.Log("Triggering stop");
+          //  Debug.Log("Triggering stop");
             animator.SetTrigger("stop");
         }
 
-        if (Input.GetKeyDown(KeyCode.Z)) {
-            Debug.Log("Trying to attack");
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            foreach(GameObject enemy in enemies) {
-                Vector3 diff = enemy.transform.position - transform.position;
-                Debug.Log("Found an enemy @ " + diff);
-                if (diff.magnitude < AttackLength) {
-                    ((Rigidbody)enemy.GetComponent<Rigidbody>()).AddForce(diff.normalized * AttackStrength);
-                    ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
-                }
-            }
-        }/*
+        //if (Input.GetKeyDown(KeyCode.Z)) {
+           // Debug.Log("Trying to attack");
+            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            //foreach(GameObject enemy in enemies) {
+             ///   Vector3 diff = enemy.transform.position - transform.position;
+             //   Debug.Log("Found an enemy @ " + diff);
+             //   if (diff.magnitude < AttackLength) {
+            //        ((Rigidbody)enemy.GetComponent<Rigidbody>()).AddForce(diff.normalized * AttackStrength);
+            //        ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
+            //    }
+           // }
+        //}/*
 		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
 			if (elapsedTime > 3) {
@@ -85,43 +85,43 @@ public class PlayerManagerJL : Damageable {
 			}
 		}
 
-        */
+        
 
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;
 			//isInAir = false;
 			animator.SetTrigger ("land");
 			if (Input.GetKeyDown (KeyCode.Space)) {
-				GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
+				//GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
 			//	isInAir = true;
-				Debug.Log ("Jumping");
+				//Debug.Log ("Jumping");
 				animator.SetTrigger ("jump");
 			}
 		} else {
 			if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
 					
-					rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
+					//rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
 
-					GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
+					//GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
 					hasDoubleJumped = true;
 					Debug.Log ("Double jumping");
 				}
 			}
 		}
 
-		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
-			speed = 110f;
-			Invoke ("reduceSpeed", 0.15f);
-		}
+		//if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
+			//speed = 110f;
+		//	Invoke ("reduceSpeed", 0.15f);
+	//	}
 	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
 		Transform parent = transform.parent;
 		transform.parent = null;
-        Quaternion targetRotation;
-        Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
+        //Quaternion targetRotation;
+       // Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
         if(Input.GetAxis("Horizontal") > 0)
         {
             transform.localScale = new Vector3(1,1,1);
@@ -153,7 +153,7 @@ public class PlayerManagerJL : Damageable {
         //}
         //GetComponent<Rigidbody>().AddForce(force);
 
-        GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+        //GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 		transform.parent = parent;
 			
 
@@ -165,14 +165,6 @@ public class PlayerManagerJL : Damageable {
 
 
 
-	void OnCollisionEnter(Collision other) {
-		//Debug.Log("touched with "+other.gameObject.name);
-		if (other.gameObject.tag == "JumpEnemy") {
-			//Debug.Log ("adding force");
-			//other.rigidbody.AddForce (new Vector3(0f, 500f, 0f));
-		}else if (other.gameObject.tag == "DoubleJump") {
-			hasDoubleJumpPowerup = true;
-		}
-	}
+
 }
    

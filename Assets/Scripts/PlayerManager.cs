@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerManager : Damageable {
 
-    public float restitutionScale = 1.1f;
+    //public float restitutionScale = 1.1f;
     public float AttackLength = 10f;
     public float AttackStrength = 10f;
 	public AudioClip DoubleJumpSound;
@@ -19,7 +19,7 @@ public class PlayerManager : Damageable {
 
 	// Use this for initialization
 	void Start () {
-		//rb = GetComponent<Rigidbody> ();
+		rb = GetComponent<Rigidbody> ();
 		gameover = GameObject.FindWithTag("Respawn");
     }
 

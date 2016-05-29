@@ -75,10 +75,10 @@ public class WaspEnemy : Damageable {
 	}
 	void FixedUpdate () {
 
-		float r, l;
+		//float r, l;
 
-		r = rightX;
-		l = leftX;
+		//r = rightX;
+		//l = leftX;
 		elapsedTime += Time.deltaTime;
 
 

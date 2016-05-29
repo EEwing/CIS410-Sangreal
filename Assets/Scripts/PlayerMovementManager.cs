@@ -12,6 +12,9 @@ public class PlayerMovementManager : Damageable {
 	public AudioClip jumpSound2;
 	public AudioClip DashingSound;
 
+	Vector3 toTranslate;
+
+
 	private int facing = 1;
 
 	public GameObject knifePrefab;
@@ -27,6 +30,7 @@ public class PlayerMovementManager : Damageable {
 
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
+
 	}
 
 	bool IsGrounded() {
@@ -87,12 +91,43 @@ public class PlayerMovementManager : Damageable {
 		} else if (Input.GetAxis ("Horizontal") < 0) {
 			facing = -1;
 		}
-		Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
-		GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+		//first case, trying to move right 
+		if (Input.GetAxis ("Horizontal") > 0) {
+			//Debug.Log ("moving");
+			if (Physics.Raycast (transform.position, Vector3.right, 1) != true) {
+				//Debug.Log ("wall on right");
+				toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
+				GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+			} else {
+				Debug.Log ("wall on right");
+				toTranslate = new Vector3 (0f, 0f, 0f);
+				GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+			}
+		}
+			//now left
+			if (Input.GetAxis ("Horizontal") < 0) {
+				Debug.Log ("moving left");
+			if (Physics.Raycast (transform.position, Vector3.left, 1) != true) {
+					//Debug.Log ("wall on right");
+					toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
+					GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+				} else {
+					Debug.Log ("wall on left");
+					toTranslate = new Vector3 (0f, 0f, 0f);
+					GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+				}
+
+			}
+
+			//GetComponent<Rigidbody> ().transform.Translate (toTranslate);
+
+		
+		//Vector3 toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
+		//GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 
 	}
 
 	void reduceSpeed(){
-		speed = 10f;	
+		speed = 20f;	
 	}
 }

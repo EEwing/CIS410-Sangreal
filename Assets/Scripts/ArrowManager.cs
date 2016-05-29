@@ -4,7 +4,7 @@ using System.Collections;
 public class ArrowManager : MonoBehaviour {
 	private int i;
 	public int facing;
-	private float gravityFactor = 0.25f;
+	//private float gravityFactor = 0.25f;
 	// Use this for initialization
 	void Start () {
 		i = 0;

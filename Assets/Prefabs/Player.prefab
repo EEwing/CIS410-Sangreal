@@ -2422,8 +2422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468ae822000134cef9411b8f13d8993e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   MaxHealth: 0
+  Health: 0
   HealthBar: {fileID: 0}
   jumpForce: 1400
   airModifier: 5
@@ -2446,6 +2447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   MaxHealth: 100
+  Health: 0
   HealthBar: {fileID: 0}
   restitutionScale: 1.1
   AttackLength: 2.5
@@ -2467,18 +2469,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   MaxHealth: 100
+  Health: 0
   HealthBar: {fileID: 0}
-  jumpForce: 10
-  airModifier: 5
-  restitutionScale: 1.1
-  AttackLength: 2.5
-  AttackStrength: 400
   knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
   avatar: {fileID: 186784}
   animator: {fileID: 9531526}
   hasDoubleJumpPowerup: 1
   hasDashPowerup: 0
-  health: 0
 --- !u!124 &12433228
 Behaviour:
   m_ObjectHideFlags: 1
