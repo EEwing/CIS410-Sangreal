@@ -11,6 +11,7 @@ public class PlayerManager : Damageable {
 	public AudioClip DoubleJumpSound;
 	public AudioClip DashSound;
 	public GameObject gameover;
+	public int playerTakesDamage = 20;
 
 
 	public int health;
@@ -49,7 +50,7 @@ public class PlayerManager : Damageable {
 			SceneManager.LoadScene ("YouLose");
 		} else if (other.gameObject.tag == "Enemy") {
 			//I take damage here
-			Damage (20);
+			Damage (playerTakesDamage);
 		} else if (other.gameObject.tag == "DoubleJump") {
 			GetComponent<PlayerMovementManager>().hasDoubleJumpPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);

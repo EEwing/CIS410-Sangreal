@@ -40,6 +40,7 @@ public class PlayerMovementManager : Damageable {
 
 	void Update(){
         dashLimiter += Time.deltaTime;
+		/*
 		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
 			if (elapsedTime > 0.5) {
@@ -51,6 +52,7 @@ public class PlayerMovementManager : Damageable {
 				knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 * facing + new Vector3(0,200,0));
 			}
 		}
+		*/
 
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;
