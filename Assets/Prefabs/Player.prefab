@@ -1237,7 +1237,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 183296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.5847816, y: 0.8091357, z: 0}
+  m_LocalPosition: {x: -1.046031, y: 0.9772637, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 440426}
@@ -2375,7 +2375,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130714}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0005020867, y: 0.0063, z: 0.0024096002}
@@ -2449,12 +2449,12 @@ MonoBehaviour:
   MaxHealth: 100
   Health: 0
   HealthBar: {fileID: 0}
-  restitutionScale: 1.1
   AttackLength: 2.5
   AttackStrength: 400
   DoubleJumpSound: {fileID: 8300000, guid: 785514b415527194e989bd2872f6194c, type: 3}
   DashSound: {fileID: 8300000, guid: 4e7f683b53f68dd46973c362aba4f7fa, type: 3}
   gameover: {fileID: 0}
+  playerTakesDamage: 20
   health: 2
 --- !u!114 &11453716
 MonoBehaviour:
@@ -2474,6 +2474,7 @@ MonoBehaviour:
   knifePrefab: {fileID: 101108, guid: 5f450526eb96f3647afb5e88ee455734, type: 2}
   avatar: {fileID: 186784}
   animator: {fileID: 9531526}
+  swordSound: {fileID: 8300000, guid: 910ac142d5e1bf34faf3a042c8ed5d77, type: 3}
   hasDoubleJumpPowerup: 1
   hasDashPowerup: 0
 --- !u!124 &12433228
