@@ -39,7 +39,7 @@ public class PlayerMovementManager : Damageable {
 
 
 	void Update(){
-        dashLimiter += Time.deltaTime;
+		dashLimiter += Time.deltaTime;
 		/*
 		elapsedTime += Time.deltaTime;
 		if (Input.GetKey (KeyCode.F)) {
@@ -78,7 +78,7 @@ public class PlayerMovementManager : Damageable {
 			}
 		}
 			
-		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true && dashLimiter > 3) {
+		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true && dashLimiter > 1 && Input.GetAxis ("Horizontal") != 0) {
             dashLimiter = 0;
 			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
