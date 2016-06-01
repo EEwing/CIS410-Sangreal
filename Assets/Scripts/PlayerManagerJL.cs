@@ -18,8 +18,9 @@ public class PlayerManagerJL : Damageable {
 	public Animator animator;
 	private int facing = 1;
 
-	public GameObject leftHand;
-	public GameObject smallSword;
+	private GameObject leftHand;
+	private GameObject smallSword;
+	public AudioClip swordSound;
     private bool hasDoubleJumped = false;
 	//private bool isInAir = false;
 	public bool hasDoubleJumpPowerup = false;
@@ -86,6 +87,7 @@ public class PlayerManagerJL : Damageable {
         //}/*
 		if (Input.GetKey (KeyCode.Z)) {
 				MeleeAttack = true;
+			SoundManager.instance.RandomizeSfx (swordSound);
 				animator.SetTrigger ("melee");
 				smallSword.GetComponent<Collider>().enabled = true;
 				//smallSword.GetComponent<Collider>().isTrigger = true;

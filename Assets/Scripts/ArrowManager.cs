@@ -26,10 +26,11 @@ public class ArrowManager : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision other) {
-		Destroy (gameObject);
+		
 		if (other.gameObject.CompareTag("Player"))
 		{
 			other.gameObject.GetComponent<Damageable>().Damage(1);
 		}
+		Destroy (gameObject);
 	}
 }
