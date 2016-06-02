@@ -52,16 +52,20 @@ public class PlayerManager : Damageable {
 			//I take damage here
 			Damage (playerTakesDamage);
 		} else if (other.gameObject.tag == "DoubleJump") {
-			GetComponent<PlayerMovementManager>().hasDoubleJumpPowerup = true;
+			GetComponent<PlayerMovementManager> ().hasDoubleJumpPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
 			SoundManager.instance.RandomizeSfx (DoubleJumpSound);
 			Destroy (other.gameObject);
 		} else if (other.gameObject.tag == "Dash") {
-			GetComponent<PlayerMovementManager>().hasDashPowerup = true;
+			GetComponent<PlayerMovementManager> ().hasDashPowerup = true;
 			SpecialEffectsHelper.Instance.PowerUp (other.gameObject.transform.position);
 			SoundManager.instance.RandomizeSfx (DashSound);
 			Destroy (other.gameObject);
-		} else if (other.gameObject.tag == "Level2") {
+		} else if (other.gameObject.tag == "Health") {
+			Heal ();
+			Destroy (other.gameObject);
+		}
+		else if (other.gameObject.tag == "Level2") {
 			Destroy (gameover);
 			SceneManager.LoadScene ("Level 2");
 		}

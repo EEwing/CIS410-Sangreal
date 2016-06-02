@@ -13,6 +13,11 @@ public abstract class Damageable : Entity {
         UpdateTextBox();
     }
 
+	public void Heal() {
+		Health = MaxHealth;
+		UpdateTextBox();
+	}
+
     public void Damage(int damage) {
         Health -= damage;
         UpdateTextBox();
