@@ -21635,7 +21635,7 @@ Prefab:
       objectReference: {fileID: 600949068}
     - target: {fileID: 2022280, guid: 6081baaaf983cca4e8f17c54db19791b, type: 2}
       propertyPath: m_BackGroundColor.r
-      value: 0.37467563
+      value: 0.922
       objectReference: {fileID: 0}
     - target: {fileID: 2022280, guid: 6081baaaf983cca4e8f17c54db19791b, type: 2}
       propertyPath: m_BackGroundColor.g
