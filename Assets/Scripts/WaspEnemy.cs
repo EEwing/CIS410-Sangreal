@@ -8,7 +8,7 @@ public class WaspEnemy : Damageable {
 	public int engageDistance;
 	public int strength = 1;
 
-	public float patrolDistance;
+	public float patrolDistance = 8;
 	public AudioClip moveSound1;
 	public AudioSource efxSource;
 	private bool buzzing = false;
@@ -30,7 +30,7 @@ public class WaspEnemy : Damageable {
 		rightX = startx + patrolDistance;
 		right = true;
 		patrol = true;
-		player = GameObject.Find("Player");
+		player = GameObject.Find("neck");
 
 
 	}

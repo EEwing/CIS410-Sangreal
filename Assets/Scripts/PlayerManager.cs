@@ -11,7 +11,7 @@ public class PlayerManager : Damageable {
 	public AudioClip DoubleJumpSound;
 	public AudioClip DashSound;
 	public GameObject gameover;
-	public int playerTakesDamage = 20;
+	public int playerTakesDamage = 0;
 
 
 	public int health;
