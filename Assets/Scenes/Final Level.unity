@@ -4391,6 +4391,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384e829c7e8592042b15836eb466a9af, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1010724287 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11491946, guid: 87367725d0ef9ed4f9aaaddbc0a021f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 520250092}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1014120189
 Prefab:
   m_ObjectHideFlags: 0
@@ -8381,8 +8387,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1666685273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 17.3, z: 12.4}
-  m_LocalScale: {x: 89.73773, y: 57.63659, z: 1}
+  m_LocalPosition: {x: 0.3, y: 17.3, z: 12.4}
+  m_LocalScale: {x: 100.42701, y: 57.63659, z: 1}
   m_Children: []
   m_Father: {fileID: 135732876}
   m_RootOrder: 5
@@ -8540,7 +8546,7 @@ Transform:
   - {fileID: 334519410}
   - {fileID: 235518649}
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 58
 --- !u!1 &1733544605
 GameObject:
   m_ObjectHideFlags: 0
@@ -9058,14 +9064,14 @@ MonoBehaviour:
   speed: 10
   MaxHealth: 100
   Health: 0
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 1010724287}
   AttackLength: 2.5
   AttackStrength: 400
   DoubleJumpSound: {fileID: 8300000, guid: 785514b415527194e989bd2872f6194c, type: 3}
   DashSound: {fileID: 8300000, guid: 4e7f683b53f68dd46973c362aba4f7fa, type: 3}
   gameover: {fileID: 492373641}
   playerTakesDamage: 20
-  health: 2
+  health: 0
 --- !u!54 &1810737418
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9143,7 +9149,7 @@ Transform:
   - {fileID: 1080116868}
   - {fileID: 1112508385}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
 --- !u!1 &1813680771
 GameObject:
   m_ObjectHideFlags: 0

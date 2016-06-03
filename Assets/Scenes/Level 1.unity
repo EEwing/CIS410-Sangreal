@@ -4277,6 +4277,10 @@ MeshFilter:
 Transform:
   m_PrefabParentObject: {fileID: 443318, guid: e5e414528ef13c143a95ca9ce1b6a7cd, type: 2}
   m_PrefabInternal: {fileID: 371323240}
+--- !u!1 &915319341 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 153910, guid: f7d62a7cf3786bb4483351cfd8de8600, type: 2}
+  m_PrefabInternal: {fileID: 1638414926}
 --- !u!1001 &921474490
 Prefab:
   m_ObjectHideFlags: 0
@@ -4680,6 +4684,10 @@ Prefab:
       propertyPath: hasDashPowerup
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11485188, guid: f462c324621a169499321c76bd173e5d, type: 2}
+      propertyPath: gameover
+      value: 
+      objectReference: {fileID: 915319341}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f462c324621a169499321c76bd173e5d, type: 2}
   m_IsPrefabParent: 0
