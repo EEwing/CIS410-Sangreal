@@ -650,7 +650,7 @@ Transform:
   - {fileID: 1975549279}
   - {fileID: 591378745}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1001 &138886359
 Prefab:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ Transform:
   m_LocalScale: {x: 1, y: 100, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
 --- !u!1 &182218790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,7 +1645,7 @@ Transform:
   m_Children:
   - {fileID: 1941630715}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1001 &343518212
 Prefab:
   m_ObjectHideFlags: 0
@@ -3353,7 +3353,7 @@ Transform:
   - {fileID: 997395587}
   - {fileID: 1155232306}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
 --- !u!4 &717559868 stripped
 Transform:
   m_PrefabParentObject: {fileID: 435230, guid: 33301c8f66a83a344ad0da9185c4681b, type: 2}
@@ -3779,6 +3779,48 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e5e414528ef13c143a95ca9ce1b6a7cd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &777192534
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 165.16545
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 19.0922
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 496082, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 12f113688d882fd489c7c7c4366976e9, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &815249322
 Prefab:
@@ -4554,7 +4596,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!1001 &959872336
 Prefab:
   m_ObjectHideFlags: 0
@@ -8165,7 +8207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
 --- !u!1 &1742671838
 GameObject:
   m_ObjectHideFlags: 0
@@ -8841,7 +8883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!1 &1880618873
 GameObject:
   m_ObjectHideFlags: 0
@@ -9169,7 +9211,7 @@ RectTransform:
   m_Children:
   - {fileID: 590391518}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -10332,7 +10374,7 @@ Transform:
   m_Children:
   - {fileID: 301546287}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &2101356782
 GameObject:
   m_ObjectHideFlags: 0
@@ -10364,7 +10406,7 @@ Transform:
   - {fileID: 1606353578}
   - {fileID: 1141507632}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!4 &2103363153 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443318, guid: e5e414528ef13c143a95ca9ce1b6a7cd, type: 2}
