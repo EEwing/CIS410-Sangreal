@@ -13,11 +13,6 @@ public abstract class Damageable : Entity {
         UpdateTextBox();
     }
 
-	public void Heal() {
-		Health = MaxHealth;
-		UpdateTextBox();
-	}
-
     public void Damage(int damage) {
         Health -= damage;
         UpdateTextBox();
@@ -41,6 +36,7 @@ public abstract class Damageable : Entity {
     }
 
     protected virtual void OnDeath() {
+		SpecialEffectsHelper.Instance.PowerUp (gameObject.transform.position);
         gameObject.SetActive(false);
     }
 
