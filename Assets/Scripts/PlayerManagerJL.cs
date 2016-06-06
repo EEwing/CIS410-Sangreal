@@ -46,6 +46,7 @@ public class PlayerManagerJL : Damageable {
 
 	void Update(){
 		elapsedTime += Time.deltaTime;
+
 		//transform.localScale = transform.localScale;
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {
@@ -61,7 +62,7 @@ public class PlayerManagerJL : Damageable {
 
         }
 
-        if (myanimationisplaying == true)
+		if (myanimationisplaying == true && IsGrounded())
         {
             animator.ResetTrigger("stop");
           //  Debug.Log("Playing Animation");
@@ -73,77 +74,34 @@ public class PlayerManagerJL : Damageable {
             animator.SetTrigger("stop");
         }
 
-        //if (Input.GetKeyDown(KeyCode.Z)) {
-           // Debug.Log("Trying to attack");
-            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            //foreach(GameObject enemy in enemies) {
-             ///   Vector3 diff = enemy.transform.position - transform.position;
-             //   Debug.Log("Found an enemy @ " + diff);
-             //   if (diff.magnitude < AttackLength) {
-            //        ((Rigidbody)enemy.GetComponent<Rigidbody>()).AddForce(diff.normalized * AttackStrength);
-            //        ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
-            //    }
-           // }
-        //}/*
 		if (Input.GetKey (KeyCode.Z)) {
 				MeleeAttack = true;
 			SoundManager.instance.RandomizeSfx (swordSound);
 				animator.SetTrigger ("melee");
 				smallSword.GetComponent<Collider>().enabled = true;
-				//smallSword.GetComponent<Collider>().isTrigger = true;
-
-				//if (animation ["throw"].normalizedTime > 0.33) {
-				//leftHand.transform.parent = null;
-				//Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
-				//knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 + new Vector3 (0, 200, 0));
-				//}
-
 		}
-
 		if (Input.GetKey (KeyCode.F)) {
 			if (elapsedTime > 0.5) {
 				elapsedTime = 0;
 				ThrowKnife = true;
 				animator.SetTrigger ("throw");
-
-
-				//if (animation ["throw"].normalizedTime > 0.33) {
-					//leftHand.transform.parent = null;
-					//Physics.IgnoreCollision (knife.GetComponent<Collider> (), GetComponent<Collider> ());
-					//knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 + new Vector3 (0, 200, 0));
-				//}
 			}
 		}
-
-
-
 		if (IsGrounded ()) {
 			hasDoubleJumped = false;
 			//isInAir = false;
 			animator.SetTrigger ("land");
 			if (Input.GetKeyDown (KeyCode.Space)) {
-				//GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
-			//	isInAir = true;
-				//Debug.Log ("Jumping");
 				animator.SetTrigger ("jump");
 			}
 		} else {
 			if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
-					
-					//rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
-
-					//GetComponent<Rigidbody> ().AddForce (new Vector3 (0f, jumpForce, 0f));
 					hasDoubleJumped = true;
 					Debug.Log ("Double jumping");
 				}
 			}
 		}
-
-		//if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true) {
-			//speed = 110f;
-		//	Invoke ("reduceSpeed", 0.15f);
-	//	}
 	}
 
 	// Update is called once per frame
