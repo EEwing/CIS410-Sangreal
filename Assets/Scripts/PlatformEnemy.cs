@@ -16,6 +16,7 @@ public class PlatformEnemy : Damageable {
 	void Start () {
 		player = GameObject.Find("Player");
 		initialX = transform.position.x;
+		animator.Play("Armature|RunCycle");
 	}
 	
 	// Update is called once per frame
@@ -23,13 +24,13 @@ public class PlatformEnemy : Damageable {
 		myanimationisplaying = true;
 		if (myanimationisplaying == true)
 		{
-			animator.ResetTrigger("stop");
-			animator.Play("Armature|RunCycle");
+			//animator.ResetTrigger("stop");
+
 		}
 		else
 		{
 			//  Debug.Log("Triggering stop");
-			animator.SetTrigger("stop");
+			//animator.SetTrigger("stop");
 		}
 
 	}
@@ -50,23 +51,20 @@ public class PlatformEnemy : Damageable {
 
 		if (transform.position.x < initialX - guardDistance) {
 			facing = 1;
+
 		}
 
 		if (transform.position.x > initialX + guardDistance) {
 			facing = -1;
-		}
-
-		if(facing < 0)
-		{
-			//transform.RotateAround (transform.position, Vector3.up, 180f);
-			transform.rotation = Quaternion.Euler(0,90,0);
 
 		}
-		else if(facing > 0)
-		{
-			//transform.RotateAround (transform.position, Vector3.up, 180f);
-			transform.rotation = Quaternion.Euler(0,-90,0);
+		if (facing < 0) {
+			transform.rotation = Quaternion.Euler (0, 90, 0);
 		}
+		if (facing > 0) {
+			transform.rotation = Quaternion.Euler (0, -90, 0);
+		}
+
 		transform.parent = parent;
 	}
 
