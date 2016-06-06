@@ -48,7 +48,7 @@ public class PlayerManagerJL : Damageable {
 		elapsedTime += Time.deltaTime;
 
 		//transform.localScale = transform.localScale;
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             Debug.Log("Set animation to playing");
             myanimationisplaying = true;  //boolean value. declare it to false
