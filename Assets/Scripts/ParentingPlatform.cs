@@ -13,12 +13,14 @@ public class ParentingPlatform : MonoBehaviour {
     }
     int i = 0;
     void OnCollisionStay(Collision playerObject) {
-        Debug.Log("stay" + i++);
-        if (playerObject.transform.position.y >= transform.position.y) {
-            playerObject.transform.parent = gameObject.transform;
-        } else {
-            playerObject.transform.parent = null;
-        }
+		if (playerObject.gameObject.name.Contains ("Player")) {
+			Debug.Log ("stay" + i++);
+			if (playerObject.transform.position.y >= transform.position.y) {
+				playerObject.transform.parent = gameObject.transform;
+			} else {
+				playerObject.transform.parent = null;
+			}
+		}
     }
     void OnCollisionExit(Collision playerObject) {
         Debug.Log("EXIT");
