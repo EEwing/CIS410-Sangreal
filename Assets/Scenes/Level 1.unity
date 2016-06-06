@@ -3357,7 +3357,7 @@ Transform:
   - {fileID: 997395587}
   - {fileID: 1155232306}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
 --- !u!4 &717559868 stripped
 Transform:
   m_PrefabParentObject: {fileID: 435230, guid: 33301c8f66a83a344ad0da9185c4681b, type: 2}
@@ -5588,6 +5588,35 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 443318, guid: e5e414528ef13c143a95ca9ce1b6a7cd, type: 2}
   m_PrefabInternal: {fileID: 1155232305}
+--- !u!1 &1156219408 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120692, guid: f462c324621a169499321c76bd173e5d, type: 2}
+  m_PrefabInternal: {fileID: 968641911}
+--- !u!114 &1156219414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156219408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ee20ac44c4bfa419a943a934a2afac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPositionX: 1.1
+  startPositionY: 2.28
+  startPositionZ: 0.21
+  startRotationX: 13.5
+  startRotationY: 270
+  startRotationZ: 0
+  finishPositionX: 0
+  finishPositionY: 5
+  finishPositionZ: -15
+  finishRotationX: 13.5
+  finishRotationY: 0
+  finishRotationZ: 0
+  TransitionSpeed: 0.05
+  anglePerTurn: 1
 --- !u!1001 &1161119276
 Prefab:
   m_ObjectHideFlags: 0
@@ -8191,7 +8220,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.46
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8265,7 +8294,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
 --- !u!1 &1742671838
 GameObject:
   m_ObjectHideFlags: 0
