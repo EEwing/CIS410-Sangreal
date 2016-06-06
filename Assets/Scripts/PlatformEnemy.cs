@@ -31,6 +31,8 @@ public class PlatformEnemy : Damageable {
 			//  Debug.Log("Triggering stop");
 			animator.SetTrigger("stop");
 		}
+		Transform parent = transform.parent;
+		transform.parent = null;
 		//lets move the character back and forth
 		if (facing > 0) {
 			Debug.Log ("Moving to the right");
@@ -61,7 +63,7 @@ public class PlatformEnemy : Damageable {
 			//transform.RotateAround (transform.position, Vector3.up, 180f);
 			transform.rotation = Quaternion.Euler(0,-90,0);
 		}
-
+		transform.parent = parent;
 	}
 
 	void OnTriggerEnter(Collider other) {
