@@ -22,7 +22,7 @@ public class PlatformEnemy : Damageable {
 	void OnTriggerEnter(Collider other) {
 		//Debug.Log("Collided with "+other.gameObject.name);
 		if (other.gameObject.tag == "Weapon") {
-            Damage(5);
+            Damage(20);
 		} 
 	}
 }

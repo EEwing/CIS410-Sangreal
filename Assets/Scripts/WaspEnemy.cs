@@ -70,7 +70,7 @@ public class WaspEnemy : Damageable {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Weapon") {
-			Damage(5);
+			Damage(20);
 		} 
 	}
 	void FixedUpdate () {
