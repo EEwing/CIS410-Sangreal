@@ -16,7 +16,7 @@ public class PlatformEnemy : Damageable {
 	void Start () {
 		player = GameObject.Find("Player");
 		initialX = transform.position.x;
-		animator.Play("Armature|RunCycle");
+		animator.Play("March");
 	}
 	
 	// Update is called once per frame
