@@ -31,6 +31,10 @@ public class PlatformEnemy : Damageable {
 			//  Debug.Log("Triggering stop");
 			animator.SetTrigger("stop");
 		}
+
+	}
+
+	void FixedUpdate(){
 		Transform parent = transform.parent;
 		transform.parent = null;
 		//lets move the character back and forth
@@ -65,6 +69,7 @@ public class PlatformEnemy : Damageable {
 		}
 		transform.parent = parent;
 	}
+
 
 	void OnTriggerEnter(Collider other) {
 		//Debug.Log("Collided with "+other.gameObject.name);
