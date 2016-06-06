@@ -60,7 +60,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169762}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 7.5645814, y: 2.1827507, z: 0}
+  m_LocalPosition: {x: 61.81, y: 6.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 499338}
@@ -195,9 +195,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.256
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -269,14 +269,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2660d4c7983dcd14db54259f15891477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   MaxHealth: 5
+  Health: 0
   HealthBar: {fileID: 0}
   player: {fileID: 0}
-  engageDistance: 15
+  engageDistance: 11
   strength: 1
-  patrolDistance: 2
-  moveSound1: {fileID: 8300000, guid: a25f524b96e5dd14b821e5b09402c027, type: 3}
+  patrolDistance: 1.5
+  moveSound1: {fileID: 8300000, guid: 7b298f3c3b3e1254a855fc6b409a9f77, type: 3}
   efxSource: {fileID: 8259720}
 --- !u!1001 &100100000
 Prefab:
