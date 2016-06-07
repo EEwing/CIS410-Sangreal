@@ -16,27 +16,27 @@ public class PlayerManager : Damageable {
 
 	public int health;
 
-	private Rigidbody rb;
+	//private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
+		//rb = GetComponent<Rigidbody> ();
 		gameover = GameObject.FindWithTag("Respawn");
     }
 
 	void Update(){
-        if(Input.GetKeyDown(KeyCode.Z)) {
-            Debug.Log("Trying to attack");
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            foreach(GameObject enemy in enemies) {
-                Vector3 diff = enemy.transform.position - transform.position;
-                Debug.Log("Found an enemy @ " + diff);
-                if (diff.magnitude < AttackLength) {
-                    ((Rigidbody)enemy.GetComponent<Rigidbody>()).AddForce(diff.normalized * AttackStrength);
-                    ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
-                }
-            }
-        }
+        //if(Input.GetKeyDown(KeyCode.Z)) {
+          //  Debug.Log("Trying to attack");
+          //  GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+           // foreach(GameObject enemy in enemies) {
+              //  Vector3 diff = enemy.transform.position - transform.position;
+              //  Debug.Log("Found an enemy @ " + diff);
+              //  if (diff.magnitude < AttackLength) {
+              //      ((Rigidbody)enemy.GetComponent<Rigidbody>()).AddForce(diff.normalized * AttackStrength);
+              //      ((Damageable)enemy.GetComponent<Damageable>()).Damage(10);
+             //   }
+         //   }
+      //  }
 	}
 
 	// Update is called once per frame

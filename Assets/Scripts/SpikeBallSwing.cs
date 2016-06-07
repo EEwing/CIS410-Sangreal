@@ -28,8 +28,8 @@ public class SpikeBallSwing : MonoBehaviour {
         Vector3 m_centerPosition;
         float m_degrees;
        
-        [SerializeField]
-        float m_speed = 10.0f;
+       // [SerializeField]
+        //float m_speed = 10.0f;
        
         [SerializeField]
         float m_amplitude = 10.0f;

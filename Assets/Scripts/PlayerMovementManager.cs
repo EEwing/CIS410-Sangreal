@@ -15,7 +15,7 @@ public class PlayerMovementManager : Damageable {
 	Vector3 toTranslate;
 
 
-	private int facing = 1;
+	//private int facing = 1;
 
 	public GameObject knifePrefab;
 	private float elapsedTime;
@@ -54,32 +54,38 @@ public class PlayerMovementManager : Damageable {
 		}
 		*/
 
-		if (IsGrounded ()) {
-			hasDoubleJumped = false;
-			//isInAir = false;
-			if (Input.GetKeyDown (KeyCode.Space)) {
+		//Restore double jump
+
+		if (hasDoubleJumped == true) {
+			if (IsGrounded ()) {
+				hasDoubleJumped = false;
+			}
+		}
+
+
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			if (IsGrounded ()) {	
 				//Debug.Log (rb);
 				rb.AddForce (new Vector3 (0f, jumpForce, 0f));
 				SoundManager.instance.RandomizeSfx (jumpSound1);
 				//isInAir = true;
-				Debug.Log ("Jumping");
-			}
-		} else {
-			if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
-				if (Input.GetKeyDown (KeyCode.Space)) {
-
-					rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);;
-
-					rb.AddForce (new Vector3 (0f, jumpForce, 0f));
-					SoundManager.instance.RandomizeSfx (jumpSound2);
-					hasDoubleJumped = true;
-					Debug.Log ("Double jumping");
+				//Debug.Log ("Jumping");
+			} else {
+				if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
+					if (Input.GetKeyDown (KeyCode.Space)) {
+						rb.velocity = new Vector3 (rb.velocity.x, 0, rb.velocity.z);
+						rb.AddForce (new Vector3 (0f, jumpForce, 0f));
+						SoundManager.instance.RandomizeSfx (jumpSound2);
+						hasDoubleJumped = true;
+						//Debug.Log ("Double jumping");
+					}
 				}
 			}
-		}
 			
-		if (Input.GetKeyDown (KeyCode.X) && IsGrounded() && hasDashPowerup == true && dashLimiter > 1 && Input.GetAxis ("Horizontal") != 0) {
-            dashLimiter = 0;
+
+		}
+		if (Input.GetKeyDown (KeyCode.X) && IsGrounded () && hasDashPowerup == true && dashLimiter > 1 && Input.GetAxis ("Horizontal") != 0) {
+			dashLimiter = 0;
 			speed = 110f;
 			Invoke ("reduceSpeed", 0.15f);
 			SoundManager.instance.RandomizeSfx (DashingSound);
@@ -88,11 +94,7 @@ public class PlayerMovementManager : Damageable {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (Input.GetAxis ("Horizontal") > 0) {
-			facing = 1;
-		} else if (Input.GetAxis ("Horizontal") < 0) {
-			facing = -1;
-		}
+		
 		//first case, trying to move right 
 		if (Input.GetAxis ("Horizontal") > 0) {
 			//Debug.Log ("moving");
@@ -101,20 +103,20 @@ public class PlayerMovementManager : Damageable {
 				toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
 				GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 			} else {
-				Debug.Log ("wall on right");
+				//Debug.Log ("wall on right");
 				toTranslate = new Vector3 (0f, 0f, 0f);
 				GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 			}
 		}
 			//now left
 			if (Input.GetAxis ("Horizontal") < 0) {
-				Debug.Log ("moving left");
+				//Debug.Log ("moving left");
 			if (Physics.Raycast (transform.position, Vector3.left, 1) != true) {
 					//Debug.Log ("wall on right");
 					toTranslate = new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0f, 0f);
 					GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 				} else {
-					Debug.Log ("wall on left");
+					//Debug.Log ("wall on left");
 					toTranslate = new Vector3 (0f, 0f, 0f);
 					GetComponent<Rigidbody> ().transform.Translate (toTranslate);
 				}

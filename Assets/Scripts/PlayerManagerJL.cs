@@ -17,8 +17,10 @@ public class PlayerManagerJL : Damageable {
 	private float elapsedTime;
 	public Animator animator;
 	private int facing = 1;
+	private bool inair = false;
 
-	private GameObject leftHand;
+
+	//private GameObject leftHand;
 	private GameObject smallSword;
 	public AudioClip swordSound;
     private bool hasDoubleJumped = false;
@@ -28,14 +30,14 @@ public class PlayerManagerJL : Damageable {
 	//public int health;
     bool myanimationisplaying = false;
 	private bool ThrowKnife = false;
-	private bool MeleeAttack = false;
+	//private bool MeleeAttack = false;
 
 	//private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
 		//rb = GetComponent<Rigidbody> ();
-		leftHand = GameObject.Find("l-finger-base");
+		//leftHand = GameObject.Find("l-finger-base");
 		smallSword = GameObject.Find("Smallsword");
 		smallSword.GetComponent<Collider>().enabled = false;
     }
@@ -45,19 +47,20 @@ public class PlayerManagerJL : Damageable {
     }
 
 	void Update(){
+		
 		elapsedTime += Time.deltaTime;
 
 		//transform.localScale = transform.localScale;
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
-            Debug.Log("Set animation to playing");
+            //Debug.Log("Set animation to playing");
             myanimationisplaying = true;  //boolean value. declare it to false
 
         }
 
         if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
-            Debug.Log("Set animation to playing = false");
+           // Debug.Log("Set animation to playing = false");
             myanimationisplaying = false;
 
         }
@@ -74,12 +77,12 @@ public class PlayerManagerJL : Damageable {
             animator.SetTrigger("stop");
         }
 
-		if (Input.GetKey (KeyCode.Z)) {
-				MeleeAttack = true;
-			SoundManager.instance.RandomizeSfx (swordSound);
-				animator.SetTrigger ("melee");
-				smallSword.GetComponent<Collider>().enabled = true;
-		}
+		//if (Input.GetKey (KeyCode.Z)) {
+		//		MeleeAttack = true;
+		//	    SoundManager.instance.RandomizeSfx (swordSound);
+		//		animator.SetTrigger ("melee");
+		//		smallSword.GetComponent<Collider>().enabled = true;
+		//}
 		if (Input.GetKey (KeyCode.F)) {
 			if (elapsedTime > 0.5) {
 				elapsedTime = 0;
@@ -87,7 +90,7 @@ public class PlayerManagerJL : Damageable {
 				animator.SetTrigger ("throw");
 			}
 		}
-		if (IsGrounded ()) {
+	/*	if (IsGrounded ()) {
 			hasDoubleJumped = false;
 			//isInAir = false;
 			animator.SetTrigger ("land");
@@ -98,10 +101,43 @@ public class PlayerManagerJL : Damageable {
 			if ((hasDoubleJumped == false && hasDoubleJumpPowerup == true)) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
 					hasDoubleJumped = true;
-					Debug.Log ("Double jumping");
+					animator.SetTrigger ("jump");
+					//Debug.Log ("Double jumping");
 				}
 			}
+		}*/
+	//NEW GOES HERE
+		if (inair == true) {
+			if (IsGrounded ()) {
+				animator.SetTrigger ("land");
+				inair = false;
+			//	Debug.Log ("Anim land");
+			}
 		}
+
+
+		if (hasDoubleJumped == true) {
+			if (IsGrounded ()) {
+				hasDoubleJumped = false;
+			}
+		}
+
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			if (IsGrounded ()) {	
+				//Debug.Log ("Anim jump");
+				animator.SetTrigger ("jump");
+				inair = true;
+			} else {
+				if (hasDoubleJumped == false && hasDoubleJumpPowerup == true && inair == false) {
+					animator.SetTrigger ("jump");
+					inair = true;
+				}
+	
+	
+	
+	
+			}
+	}
 	}
 
 	// Update is called once per frame
@@ -134,14 +170,14 @@ public class PlayerManagerJL : Damageable {
 			knife.GetComponent<Rigidbody> ().AddForce (Vector3.right * 750 * facing + new Vector3(0,200,0));
 				}
 
-		if (MeleeAttack = true) {
-			if (this.animator.GetCurrentAnimatorStateInfo (0).IsName ("melee") == false) {
-				MeleeAttack = false;
-				smallSword.GetComponent<Collider> ().enabled = false;
+		//if (MeleeAttack == true) {
+		//	if (this.animator.GetCurrentAnimatorStateInfo (0).IsName ("melee") == false) {
+			//	MeleeAttack = false;
+				//smallSword.GetComponent<Collider> ().enabled = false;
 				//smallSword.GetComponent<Collider> ().isTrigger = false;
-				// You have just leaved your state!
-			}
-		}
+
+			
+
         //Debug.Log(toTranslate);
         //if(toTranslate.magnitude > 0.05)
         /*if (toTranslate != (new Vector3(0, 0, 0)))

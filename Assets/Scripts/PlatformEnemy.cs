@@ -40,11 +40,11 @@ public class PlatformEnemy : Damageable {
 		transform.parent = null;
 		//lets move the character back and forth
 		if (facing > 0) {
-			Debug.Log ("Moving to the right");
+			//Debug.Log ("Moving to the right");
 			GetComponent<Rigidbody> ().transform.Translate (facing * speed * Time.deltaTime, 0f, 0f, Space.World);
 			//toTranslate = new Vector3 (facing * speed * Time.deltaTime, 0f, 0f);
 		} else {
-			Debug.Log ("Moving to the left");
+			//Debug.Log ("Moving to the left");
 			GetComponent<Rigidbody> ().transform.Translate (facing * speed * Time.deltaTime, 0f, 0f, Space.World);
 			//toTranslate = new Vector3 (facing * speed * Time.deltaTime, 0f, 0f);
 		}

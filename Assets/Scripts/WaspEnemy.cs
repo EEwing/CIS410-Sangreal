@@ -13,21 +13,21 @@ public class WaspEnemy : Damageable {
 	public AudioSource efxSource;
 	private bool buzzing = false;
 
-	private float startx;
+	//private float startx;
 	private bool right;
 
 	private float elapsedTime;
 	private bool patrol;
-	private float leftX;
-	private float rightX;
+	//private float leftX;
+	//private float rightX;
 	private bool playerIsAttacked = false;
 
 
 
 	void Start () {
-		startx = transform.position.x;
-		leftX = startx - patrolDistance;
-		rightX = startx + patrolDistance;
+		//startx = transform.position.x;
+		//leftX = startx - patrolDistance;
+		//rightX = startx + patrolDistance;
 		right = true;
 		patrol = true;
 		player = GameObject.Find("neck");
@@ -59,9 +59,9 @@ public class WaspEnemy : Damageable {
 			efxSource.Stop ();
 			buzzing = false;
 			patrol = true;
-			startx = transform.position.x;
-			leftX = startx - patrolDistance;
-			rightX = startx + patrolDistance;
+			//startx = transform.position.x;
+			//leftX = startx - patrolDistance;
+			//rightX = startx + patrolDistance;
 
 
 

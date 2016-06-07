@@ -23,10 +23,10 @@ public class MoveCamera : MonoBehaviour {
 	//public float finishScaleY = 1f;
 	//public float finishScaleZ = 1f;
 
-	private Vector3 startP;
+	//private Vector3 startP;
 	private Vector3 finishP;
 
-	private Vector3 startR;
+	//private Vector3 startR;
 	private Vector3 finishR;
 
 	private Quaternion _targetRotation = Quaternion.identity;
@@ -39,10 +39,10 @@ public class MoveCamera : MonoBehaviour {
 	// Use this for initialization
 
 	void Awake() {
-		startP = new Vector3(startPositionX, startPositionY, startPositionZ);
+		//startP = new Vector3(startPositionX, startPositionY, startPositionZ);
 		finishP = new Vector3 (finishPositionX, finishPositionY, finishPositionZ);
 
-		startR = new Vector3(startRotationX, startRotationY, startRotationZ);
+		//startR = new Vector3(startRotationX, startRotationY, startRotationZ);
 		finishR = new Vector3 (finishRotationX, finishRotationY, finishRotationZ);
 
 		transform.position = new Vector3(startPositionX, startPositionY, startPositionZ);
